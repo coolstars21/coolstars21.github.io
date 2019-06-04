@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  <id>urn:iweb:1CBCCC66-073D-4F53-8CDA-CB2E5054C9D7</id>
  <title>Page list Atom feed</title>
- <updated>2019-06-04T15:19:37+02:00</updated>
+ <updated>2019-06-04T17:14:09+02:00</updated>
  <link rel="self" href="feed.xml"/>
  <generator>iWeb</generator>
  <author>
@@ -14,7 +14,7 @@
   <title xmlns="urn:iweb:">Cool Stars 21</title>
   <in-navbar xmlns="urn:iweb:">1B36162E-FEA7-4C00-846C-C368D809E281</in-navbar>
   <link rel="alternate" href="Cool_Stars_21.html"/>
-  <updated>2019-06-04T15:19:37.001+02:00</updated>
+  <updated>2019-06-04T17:14:09.001+02:00</updated>
   <content>Cool Stars 21</content>
  </entry>
 </feed>
