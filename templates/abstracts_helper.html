@@ -1,0 +1,42 @@
+{% macro talktitle(t) -%}
+<p class="rightlinks"><a href="#table">table</a>
+  <a href="#talks">talks</a>
+  <a href="#posters">posters</a>
+</p>
+<a name="{{ t['Title'] }}"></a>
+<h3>
+  {% if t['Link to electronic material'] %}
+  <a href='{{ t['Link to electronic material'] }}'>
+    {% endif %}
+    {{ t['Title'] }}
+    {% if t['Link to electronic material'] %}</a>{% endif %}
+</h3>
+{%- endmacro %}
+
+{% macro authoraffilabstract(t) -%}
+<p><strong>{%- if t['Publish first author contact information?'] %}<a href='mailto:{{ t['Email Address'] }}'>{% endif %}
+{{ t['authorlist'][0] }}{%- if t['Publish first author contact information?']
+      %}</a>{%- endif %}</strong>{%- for a in t['authorlist'][1:] %}; {{ a }}{%
+  endfor %}{{ t['team'] }}<br>
+  {{ t['affiliations'] }}
+</p>
+<p class="abstracts">{{ t['Abstract']|replace('\n\n', '</p><p class="abstracts">'|safe) }}</p>
+{%- endmacro %}
+
+{% macro single_abstract_any_type(t) -%}
+{{ talktitle(t) }}
+{% if ((t['type'] == 'invited') or (t['type'] == 'contributed')) %}
+    <p class="locationschedule">science theme: {{ t['Select a major science topic'] }}<br>
+      <em>schedule: {{ t['day']|default('TBA', true) }}, {{
+	t['time']|default('TBA', true) }} {% if t['type'] == 'invited' %}
+	(invited) {% endif %}</em>{% if t['youtubelink']
+	%} | <a href={{t['youtubelink']}}>video (youtube)</a>{% endif %} {%if
+	t['pdflink']%} | <a href={{t['pdflink']}}>slides (pdf)</a>{% endif %}</p>
+{% elif t['type'] == 'poster' %}
+    <p class="locationschedule"> <em>poster number: {{ t['poster number']|default('TBA') }}</em></p>
+{% else %}
+<p class="locationschedule"> science theme: {{ t['Select a major science topic'] }}<br>
+  <em>scheduling information or poster number goes here</em></p>
+{% endif %}
+   {{ authoraffilabstract(t) }}
+{%- endmacro %}
