@@ -1,15 +1,11 @@
-Instructions for abstracts
-==========================
+NOTES ON WEBSITE
+================
 
-Abstracts are submitted on a Google web form.
-We need to format this for convenient reading in 2.5 cases:
+Compile python source files with python3!
 
-1) Display initally, raw, submitted data
-   a) for the SOC to review abstracts and select talks
-   b) to pass on abstracts that were not selected to splinter session organizers
-2) To diplay accepted abstracts on the website.
+-> ipython3
+> run compile_web.py test
 
-In 2) we will have a few additional columns of data (date and time for talks,
-poster number for posters) but otherwise these formats can use the same formatting mechanism. We can just set a default for these columns to "not yet assigned" and then use the exact same columns.
+then move content of test subdirectory into father (main) directory
 
-In 1) we will distribute only talks to the SOC, as pure poster abstracts are still submitted at a later date.
+
