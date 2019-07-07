@@ -41,14 +41,16 @@
 	<div class="c6">
 	  <ul class="listing">
 	    {% for m in soc[:13] %}
-	    <li>{{m['Full Name']}} - {{m['Institute']}}</li>
+	    <!--<li>{{m['Full Name']}} - {{m['Institute']}}</li> -->
+	    <li><span style="color: #c95c50;">{{m['Full Name']}}</span> - {{m['Institute']}}</li>
 	    {% endfor %}
 	  </ul>
 	</div> 
 	<div class="c6">
 	  <ul class="listing">
 	    {% for m in soc[13:] %}
-	    <li>{{m['Full Name']}} - {{m['Institute']}}</li>
+	    <!--<li>{{m['Full Name']}} - {{m['Institute']}}</li>-->
+	    <li><span style="color: #c95c50;">{{m['Full Name']}}</span> - {{m['Institute']}}</li>
 	    {% endfor %}
 	  </ul>
 	</div> 
@@ -146,7 +148,7 @@
        <h2><span>Previous Meetings</span></h2>
        <div class="c12 row">
 	 <ul class="listing">
-	   <li>CS 20 - <a href="http://coolstars20.cfa.harvard.edu/">Boston, USA, July/August 2018</a></li>
+	   <li>CS 20 - <a href="http://coolstars20.cfa.harvard.edu/">Boston, USA, July 2018</a></li>
 	   <li>CS 19 - <a href="http://coolstars19.com/">Uppsala, Sweden, June 2016</a></li>
 	   <li>CS 18 - <a href="http://www2.lowell.edu/workshops/coolstars18/">Flagstaff, USA, June 2014</a></li>
 	   <li>CS 17 - Barcelona, Spain, June 2012</li>
