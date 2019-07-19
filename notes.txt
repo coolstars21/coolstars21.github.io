@@ -1,0 +1,42 @@
+GENERAL NOTES on how to use these source files 
+
+python programs on main directory:
+       - compile_web.py: main python program to create the html pages. To be used with python 3 as follows:
+       	 > ipython3
+	 > run compile_web.py online
+	 with online the name of the directory where all source files will be written. That directory should then be uploaded on the github page.
+
+	 - compile_abstract_book.py: python script which creates the booklet of abstracts via LaTeX. Apparently abstracts were submitted as google forms, not really clear how it works...
+
+	 - copy_times.py: header is quite clear but I don't see where it's used...? same for script_helper.py
+
+	 - match_reglists.py: do a lot of things on register list as its name suggests!! even makes badges...
+
+
+python programs in pagepy directory:
+       - index.py: imports name of LOC and SOC members from data/*csv files, and import slide-* images for in images directory for carroussel
+       - contributions.py: imports name of attendees in data/attendees.csv file
+       - abstracts.py: work out abstracts, apparently from a csv file located in data. It seems that the csv file has a well defined structure (different rows with first author, authors list, affiliations etc.). If we use it, we'll need to make sure we work out a similar file.
+
+
+html source files in pagesrc directory:
+     - index.html: sources for main/front page (labelled as 'about' in navigation bar). Structure is quite clear: from top to bottom, displays all the stuff in main page: carroussel of images, global message imported from templates/globalmessage.html, timeline imported from templates/timeline.html, general text about Cool Stars, names of SOC and LOC members, sponsors etc. 
+     - splinters.html: sources for splinters tab in navigation bar, again quite straightforward to edit.
+     - program.html: sources for program tab in navigation bar, again quite straightforward to edit.
+     - travel.html: sources for logistics tab in navigation bar, again quite straightforward to edit.
+     - excursions.html: sources for excursions tab in navigation bar, again quite straightforward to edit.
+     - contributions. html: sources for contributions tab in navigation bar, again quite straightforward to edit.
+     - posterjudging.html: calls a google form apparently to vote for best poster... not on the CS20 website anymore. I suppose it used to appear on the navigation bar, probably during the conference.
+     - proceedings.html: sources to submit a proceeding. Again, I suppose it used to appear on the navigation bar before the proceedings got all sorted out as a booklet.
+     - abstracts.html: sources for abstracts tan in navigation bar, calls automatic functions that fill in all the abstracts for talks, posters etc. Not so clear how it works for me as of now...
+
+
+source files in templates directory:
+       - basic.html: stars by setting what tabs will appear on the navigation bar. It also works out what's on the top bar (email, links to facebook, twitter...), and what's on the bottom bar (address, email, link to top...)
+       - timeline.html: simple text for timeline called in pagesrc/index.html
+       - globalmessage.html: simple text for global message called in pagesrc/index.html
+       - submitbuttons.html: links to abstract tab and to abstract booklet (will open pdf file in same navigation bar)
+       - emailform.html: calls a google form, not sure how it works...
+       - abstracts_helper.html: defines a set of macros to work out abstracts
+       - abstracts_helper.tex and single_abstract.tex: used to build up booklet of abstracts via LaTeX
+       - single_abstract.html: looks like html metadata used in abstract_deamon/deamon.py...? seems that it automatically generates emails to contributing participants, see abstract_email.txt.

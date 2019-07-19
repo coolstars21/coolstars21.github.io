@@ -1,5 +1,5 @@
 {% extends "templates/basic.html" %}
-{% set active_page = "About" %}
+{% set active_page = "Welcome" %}
 
 {% block content %}
 
@@ -41,16 +41,14 @@
 	<div class="c6">
 	  <ul class="listing">
 	    {% for m in soc[:13] %}
-	    <!--<li>{{m['Full Name']}} - {{m['Institute']}}</li> -->
-	    <li><span style="color: #c95c50;">{{m['Full Name']}}</span> - {{m['Institute']}}</li>
+	    <li>{{m['Full Name']}} - {{m['Institute']}}</li>
 	    {% endfor %}
 	  </ul>
 	</div> 
 	<div class="c6">
 	  <ul class="listing">
 	    {% for m in soc[13:] %}
-	    <!--<li>{{m['Full Name']}} - {{m['Institute']}}</li>-->
-	    <li><span style="color: #c95c50;">{{m['Full Name']}}</span> - {{m['Institute']}}</li>
+	    <li>{{m['Full Name']}} - {{m['Institute']}}</li>
 	    {% endfor %}
 	  </ul>
 	</div> 
