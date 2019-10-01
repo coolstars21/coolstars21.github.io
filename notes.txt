@@ -40,3 +40,19 @@ source files in templates directory:
        - abstracts_helper.html: defines a set of macros to work out abstracts
        - abstracts_helper.tex and single_abstract.tex: used to build up booklet of abstracts via LaTeX
        - single_abstract.html: looks like html metadata used in abstract_deamon/deamon.py...? seems that it automatically generates emails to contributing participants, see abstract_email.txt.
+
+
+Abstracts:
+	- rows in csv file should include: 
+	       	  . index
+	       	  . type ('invited', 'contributed', 'poster', '')
+	       	  . First author
+		  . Authors
+		  . affiliations
+		  . Title
+		  . Abstract
+		  . Email Address
+		  . Publish first author contact information?
+		  . Link to electronic material
+		  . day?
+		  . time?
