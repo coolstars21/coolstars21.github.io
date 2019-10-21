@@ -1,0 +1,29 @@
+{ "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [1.434654, 43.611289]},
+	"properties": {	 
+	"name": "Pierre Baudis Convention Centre",
+	"marker-size": "large"
+	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [1.439929, 43.603350]},
+	"properties": {
+	"name": "Church of the Jacobins",
+	"description": "Conference welcome drinks (Monday)",
+	"marker-symbol": "bar",
+	"marker-color": "#900"
+	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [1.360595, 43.660097]},
+	"properties": {	 
+	"name": "Aeroscopia",
+	"description": "Conference banquet (Thursday)",
+	"marker-symbol": "restaurant",
+	"marker-color": "#900"
+	}
+    }
+  ]
+ }
