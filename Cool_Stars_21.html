@@ -15,6 +15,8 @@
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     <script src="js/chart.js"></script>
 
+    
+
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -41,6 +43,13 @@
     <meta name="theme-color" content="#ffffff">
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   </head>
 
@@ -78,6 +87,8 @@
 		<li><a href="splinters.html">Splinters</a></li>
 		
 		<li><a href="registration.html">Pre-registration</a></li>
+		
+		<li><a href="travel.html">Venue</a></li>
 		
                </ul>
             </div>
@@ -532,5 +543,84 @@ We are thrilled to announce that pre-registration is now <a href="https://docs.g
       //-->
     </div>
 
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
+
+    <script>
+
+    // Initialize the map   
+    // latitude and longitude
+    var coords = [43.63, 1.44];
+    // zoom level
+    var zoomLevel = 12;
+
+    // mapid is the id of the div where the map will appear
+    var map = L.map('mapid').setView(coords, zoomLevel);
+
+    // Tile type: openstreetmap normal
+    var openstreetmap = L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+    maxZoom: 20
+    })
+
+    // Tile type: openstreetmap Hot
+    var openstreetmapHot = L.tileLayer(
+    'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+    maxZoom: 20
+    })
+
+    // Tile type: openstreetmap Osm
+    var openstreetmapOsm = L.tileLayer(
+    'http://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+    maxZoom: 20
+    })
+
+    //Base layers definition and addition
+    var allOptions = {
+    "Open streetmap": openstreetmap,
+    "Open streetmap: Hot": openstreetmapHot,
+    "Open streetmap: Osm": openstreetmapOsm
+    };
+
+    // Initialize with openstreetmap
+    openstreetmap.addTo(map);
+
+    // Add scale
+    L.control.scale().addTo(map);
+    
+    // Add baseLayers to map as control layers
+    L.control.layers(allOptions).addTo(map);
+
+    // Add feature on map related to convention centre
+    L.marker([43.611289, 1.434654]).addTo(map).bindPopup('Pierre Baudis<br> Convention Centre').openPopup();
+
+    // Add feature related to welcome drinks (Jacobins)
+    var icon = L.divIcon({
+	className: 'custom-div-icon',
+        html: "<div style='background-color:red;' class='marker-pin'></div><i class='material-icons'>local_bar</i>",
+        iconSize: [30, 42],
+        iconAnchor: [15, 42]
+    });
+    var marker = L.marker([43.603350, 1.439929], {
+	icon: icon
+    }).addTo(map);
+
+    // Add feature related to banquet (aeroscopia)
+    icon = L.divIcon({
+	className: 'custom-div-icon',
+	html: "<div style='background-color:red;' class='marker-pin'></div><i class='material-icons'>restaurant</i>",
+        iconSize: [30, 42],
+        iconAnchor: [15, 42]
+    });
+    marker = L.marker([43.660097, 1.360595], {
+	icon: icon
+    }).addTo(map);
+
+    </script>
+    
   </body>
 </html>
