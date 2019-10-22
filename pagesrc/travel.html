@@ -1,41 +1,104 @@
 {% extends "templates/basic.html" %}
-{% set active_page = "Logistics" %}
+{% set active_page = "Venue" %}
 
 {% block content %}
 
-<div class="container clearfix mt-100 mb-20">
-         {% include "templates/globalmessage.html" ignore missing %}
+<div class="container clearfix mt-100 mb-20"> {% include "templates/globalmessage.html" ignore missing %}
 
   <h2><span>Conference Venue</span></h2>
-  <div class="row">
-    <div class="c4">
-      <p>George Sherman Union, 775 Commonwealth Avenue, Boston</p>
+    <div class="row">
+       <div class="c4">
+	 <p>The <a href=
+	 "https://www.centre-congres-toulouse.fr/en">Pierre Baudis Convention
+	 Centre</a> hosts the meeting. It is located 11 Esplanade Compans Caffarelli in
+	 Toulouse, right next to Compans Caffarelli metro station.
+	 </p>
+	 <p> 
+	 <ul class="listing">
+	   <li>large blue marker: conference venue</li>
+	   <li>red glass: welcome drinks on Monday</li>
+	   <li>red cutlery: conference banquet on Thursday</li>
+	 </ul>
+       </div>
 
-      <p>The George Sherman Union of Boston University hosts the meeting. All talks, splinters session, and poster sessions take place on the second floor.
-      </p>
-      <p><small><a href="https://github.com/CoolStars20/website/blob/master/maps/GeorgeShermanUnion.geojson">(View
-      Larger Map)</a></small></p>
-      <p> 
-	<ul class="listing">
-	  <li>large blue marker: conference venue</li>
-	  <li>green bed: BU dorms</li>
-	  <li>olive beds: Hotels with room block</li>
-	  <li>red glass: Conference banquet</li>
-	</ul>
-
-    </div>
-    <div class="container clearfix  mb-20">
-      <div class="c8">
-	<iframe height="350" width="100%" frameborder="0" src="https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/CoolStars20/website/master/maps/GeorgeShermanUnion.geojson" title="Venue (blue) and other locations"></iframe>
-      </div>
+       <!-- insert map (see templates/basic.html)  -->
+       <div class="container clearfix  mb-20">
+	  <div class="c8">
+	      <div id="mapid" style="width:750px; height: 375px;"></div>
+	</div>
     </div>
   </div>
-  <h2><span>Around the conference venue</span></h2>
- <h3 id="construction">Construction around the conference venue</h3>
-  <div class="row">
 
-    <div class="c4">
-       <div class="highlightbox">
+  <h2><span>Travel</span></h2>
+  <div class="c12 row">
+    <h3>Travel to Toulouse</h3>
+        <p>Situated in the South-West of France, close to the Pyrénées
+  mountains, Toulouse is a friendly and attractive town benefiting
+  from the sunny and mild weather of southern France. It can be easily
+    reached by plane through
+    <a href="http://www.toulouse.aeroport.fr/en">Toulouse-Blagnac international airport</a>
+  (IATA code: TLS) located at 10 km from Toulouse city centre.
+	</p>
+      <h3>Transport to the Conference Venue</h3>
+
+    <p>Public transportation in Toulouse is provided by
+    <a href="https://www.tisseo.fr/en">Tisseo</a> (its website offers a
+    journey planner with timetables for all bus, tramway and metro services in Toulouse).  
+    To reach the city centre from the airport, there are several options:</p>
+
+    <ul class="listing">
+    <li> the <a
+    href="https://www.tisseo.fr/en/airport-shuttle">airport
+    shuttle</a> ("navette a&eacute;roport"), which is a
+      bus leaving outside the Terminal. A single ticket costs 8 euros
+      and allows for connections. It can be purchased on board the bus by
+    cash, or by automatic ticket dispensers located near the shuttle
+      stop. There is also a Tisseo agency there to buy tickets at a
+    counter. It takes about 15-20 minutes to reach the city centre,
+    depending on traffic. The airport shuttle calls at Compans
+    Caffarelli station (stop there for Pierre Baudis Convention Centre),
+    Jeanne d’Arc station (metro line B), Jean Jaurès station (metro
+    lines A and B) and terminates at Matabiau Station (train,
+    metro line A).</li>
+    &nbsp
+    <li> the tramway line T2 also leaves outside the airport terminal. A single
+    ticket costs 1.70 euros (it also allows for changes). It takes about 30 minutes to reach Palais
+    de Justice station (metro line B). From Palais de Justice station, it
+    takes an extra 5-10 minutes to get to Compans Cafferelli station via
+    metro line B.
+    </li>
+    &nbsp
+    <li> a taxi from the airport costs about 30 euros (no tip
+    expected). Taxis prefer cash, but credit cards may be accepted. </li>
+    </ul>
+      
+    <!-- <p>Popular US ride and ride-sharing apps like Uber and Lyft operate in Boston and will service (pick-up and drop-off) the Boston Logan Airport.  The fees are typically ~$25-35 for single rides but can fluctuate due to the demand at the time. The option to automatically share a ride with other Uber/Lyft users will significantly reduce the price.  In order to access these rides, you must install the app on your phone and have access to the internet.  Creating an account through the app and registering your credit card is required for service since the drivers will not take cash or credit.
+    </p> -->
+
+    &nbsp
+    <h3>Getting around in the city</h3>
+    <p>As already mentioned above, public transportation in Toulouse
+    is provided by <a href="https://www.tisseo.fr/en">Tisseo</a>. The
+    center of Toulouse is relatively small with many parks and pedestrian-friendly streets, so simply walking is often the best option to get around.</p>
+
+    <h2><span>Lodging / Hotels</span></h2>
+    <div class="c12 row">
+	<p>
+	  The conference venue is located in the city centre of Toulouse. Many hotels are available in this area and can be found with any search engine or travel agency. More affordable options should also be available via websites such as <a href="https://www.airbnb.com/">Airbnb</a> (We do not endorse any particular option. Links are provided as example only.).
+	  </p>
+      </div>
+
+    
+      
+<!--
+
+
+<h2><span>Around the conference venue</span></h2>
+<h3 id="construction">Construction around the conference venue</h3>
+<div class="row">
+  
+<div class="c4">
+<div class="highlightbox">
     <p>A <a href="http://www.massdot.state.ma.us/highway/HighlightedProjects/CommonwealthAvenueBridgeReplacement/ProjectOverview.aspx">major
       public works project</a> will take place during the CS20 meeting,
       where a road bridge crossing an interstate close to the conference venue
@@ -224,7 +287,9 @@
 	<p>For more information and guidance regarding the Visitor Visa program,
 	please read: <a href="https://travel.state.gov/content/visas/en/general/all-visa-categories.html">Directory
 	of Visa Categories</a>.</p>
-	      
+
+      //-->
+      
     </div>
 
 {% endblock content %}

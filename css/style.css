@@ -153,7 +153,7 @@ h3 {color:#c95c50;font-weight:400;}
 .about img {display:block;margin:0 auto;}
 .name {color:#c95c50;font-size:1.143em;font-weight:600;margin:0;}
 .position {margin:0 0 20px;}
-.listing {margin: 15px;}
+.listing {margin-left: 20px; text-align: justify;text-justify: inter-word;}
 .sponsor-logo img {max-height:100px}
 .rightlinks {text-align: right;margin-bottom: 5px}
 .locationschedule {margin: 10px 0;}
@@ -220,6 +220,43 @@ div.highlightbox p {
   margin: 3%;
   color: #000000;
 }
+
+
+/* FEATURES ON MAP ===============================================================*/
+.marker-pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background: #c30b82;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -15px;
+}
+.marker-pin::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin: 3px 0 0 3px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+ }
+.custom-div-icon i {
+   position: absolute;
+   width: 22px;
+   font-size: 22px;
+   left: 0;
+   right: 0;
+   margin: 10px auto;
+   text-align: center;
+}
+.custom-div-icon i.awesome {
+   margin: 12px auto;
+   font-size: 17px;
+}
+
 
 /* CFA FOOTER ===============================================================*/
 .leaf {display: inline; border-right: 1px solid; color: white;
