@@ -6,142 +6,206 @@
 <div class="container clearfix mt-100 mb-20">
        {% include "templates/globalmessage.html" ignore missing %}
 
-      <!--
+      
       <h2><span>Schedule</span></h2>
       <div class="c12 row">
-	<p>We reserve the right to make small adjustments to the schedule.</p>
+	<p>The schedule is still preliminary and may be subject to
+      small adjustments. The program is described below.</p>
 	<table class="schedule" border="2">
 	  <tr class="title">
 	    <td>Time</td>
-	    <td>Sunday</td>
-	    <td>Monday</td>
-	    <td>Tuesday</td>
-	    <td>Wednesday</td>
-	    <td>Thursday</td>
-	    <td>Friday</td>
-	    <td>Saturday</td>
+	    <td>Sunday 21st</td>
+	    <td>Monday 22nd</td>
+	    <td>Tuesday 23rd</td>
+	    <td>Wednesday 24th</td>
+	    <td>Thursday 25th</td>
+	    <td>Friday 26th</td>
+	    <!--<td>Saturday</td>-->
 	  </tr>
 	  <tr class="title">
-	    <td></td>
-	    <td>7/29</td>
-	    <td>7/30</td>
-	    <td>7/31</td>
-	    <td>8/1</td>
-	    <td>8/2</td>
-	    <td>8/3</td>
-	    <td>8/4</td>
-	  </tr>
-	  <tr>
 	    <td>Topic</td>
 	    <td></td>
-	    <td>Galactic Cartography in the Gaia Era</td>
-	    <td>Solar/Stellar Magnetic Fields and Surface Structure</td>
-	    <td>Fundamental Properties of Cool Stars</td>
-	    <td>Solar/Stellar Environments</td>
-	    <td>Very Low Mass (VLM) Objects</td>
+	    <td>THE SUN IN TIME AND STELLAR EVOLUTION</td>
+	    <td>MEASUREMENTS AT HIGH PRECISION</td>
+	    <td>MAGNETISM OF THE SUN AND COOL STARS</td>
+	    <td>THE ENVIRONMENTS OF THE SUN AND COOL STARS</td>
+	    <td>COOL MEMBERS OF CLUSTERS AND ASSOCIATIONS</td>
+	    <!--<td></td>-->
+	  </tr>
+	  
+	  <tr>
+	    <td class="time">09:00-09:30</td>
 	    <td></td>
+	    <td class="plenary">Invited Talk 1</td>
+	    <td class="plenary">Invited Talk 3</td>
+	    <td class="plenary">Invited Talk 5</td>
+	    <td class="plenary">Invited Talk 7</td>
+	    <td class="plenary">Invited Talk 9</td>
+	  </tr>
+	  <tr>
+	    <td class="time">09:30-09:45</td>
+	    <td></td>
+	    <td class="plenary">Contributed Talk 1</td>
+	    <td class="plenary">CT9</td>
+	    <td class="plenary">CT17</td>
+	    <td class="plenary">CT25</td>
+	    <td class="plenary">CT33</td>
+	  </tr>
+	  <tr>
+	    <td class="time">09:45-10:00</td>
+	    <td></td>
+	    <td class="plenary">CT2</td>
+	    <td class="plenary">CT10</td>
+	    <td class="plenary">CT18</td>
+	    <td class="plenary">CT26</td>
+	    <td class="plenary">CT34</td>
+	  </tr>
+	  <tr>
+	    <td class="time">10:00-10:15</td>
+	    <td></td>
+	    <td class="plenary">CT3</td>
+	    <td class="plenary">CT11</td>
+	    <td class="plenary">CT19</td>
+	    <td class="plenary">CT27</td>
+	    <td class="plenary">CT35</td>
+	  </tr>
+	  <tr>
+	    <td class="time">10:15-10:30</td>
+	    <td></td>
+	    <td class="plenary">CT4</td>
+	    <td class="plenary">CT12</td>
+	    <td class="plenary">CT20</td>
+	    <td class="plenary">CT28</td>
+	    <td class="plenary">CT36</td>
+	  </tr>
+	  
+	  <tr>
+	    <td class="time">10:30-11:15</td>
+	    <td></td>
+	    <!--<td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>-->
+	    <td class="break">Coffee break + Posters</td>
+	    <td class="break">Coffee break + Posters</td>
+	    <td class="break">Coffee break + Posters</td>
+	    <td class="break">Coffee break + Posters</td>
+	    <td class="break">Coffee break + Posters</td>
 	  </tr>
 
 	  <tr>
-	    <td class="time">08:30-10:05</td>
-	    <td class="workshop" rowspan="7"><a href="registration.html#ciao">CIAO workshop</a> /
-      <a href="https://exoplanets.nasa.gov/exep/events/205/">ExoPAG 18</a></td>
-{% for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'] %}
-	    <td class="plenary"><a href="abstracts.html#talkson{{ day
-	    }}">Plenary session</a></td>
-{% endfor %}
-	    <td class="workshop" rowspan="7"><a href="registration.html#hackday">Hack day</a></td>
-	  </tr>
-	  <tr>
-	    <td class="time">10:05-10:50</td>	    
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	  </tr>
-	  <tr>
-	    <td class="time">10:50-12:35</td>
-	    <td class="plenary"><a href="abstracts.html#talksonMonday">Plenary session</a></td>
-	    <td class="plenary"><a href="abstracts.html#talksonTuesday">Plenary session</a></td>
-	    <td rowspan="2" class="plenary"><a href="abstracts.html#talksonWednesday">Plenary session</a></td>
-	    <td class="plenary"><a href="abstracts.html#talksonThursday">Plenary session</a></td>
-	    <td class="plenary"><a href="abstracts.html#talksonFriday">Plenary session</a></td>
-	  </tr>
-	  <tr>
-	    <td class="time">12:35-13:05</td>
-	    <td rowspan="2">Lunch</td>
-	    <td rowspan="2">Lunch</td>
-	    <!- - Wednesday missing, because defined in rowspan above - ->
-	    <td rowspan="2">Lunch</td>
-	    <td rowspan="6"><a href="travel.html#bbq">End of conference BBQ. Place and time will be announced on short notice.</a></td>
-	  </tr>
-	  <tr>
-	    <td class="time">13:05-14:00</td>
-	    <!- - Only Wednesday + Friday here, because rowspan above - ->
-	    <td class="socialac"
-	    rowspan="5"><a href="excursions.html">Excursions (timing varies by excursion)</a></td>
-	  </tr>
-	  <tr>
-	    <td class="time">14:00-15:30</td>
-	    <td class="splinter"><a href="splinters.html">Splinter session 1,2,3</a></td>
-	    <td class="splinter"><a href="splinters.html">Splinter session 4,5,6</a></td>
-	    <td class="splinter"><a href="splinters.html">Splinter session 7,8,9</a></td>
-	  </tr>
-	  <tr>
-	    <td class="time">15:30-16:00</td>
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	    <td class="break">Coffee break + <a href="abstracts.html#posters">Posters</a></td>
-	  </tr>
-	  <tr>
-	    <td class="time">16:00-17:30</td>
+	    <td class="time">11:15-11:45</td>
 	    <td></td>
-	    <td class="splinter"><a href="splinters.html">Splinter session 1,2,3</a></td>
-	    <td class="splinter"><a href="splinters.html">Splinter session 4,5,6</a></td>
-	    <td class="splinter"><a href="splinters.html">Splinter session 7,8,9</a></td>
-	    <td></td>
+	    <td class="plenary">Invited Talk 2</td>
+	    <td class="plenary">Invited Talk 4</td>
+	    <td class="plenary">Invited Talk 6</td>
+	    <td class="plenary">Invited Talk 8</td>
+	    <td class="plenary">Invited Talk 10</td>
 	  </tr>
 	  <tr>
-	    <td class="time">17:30-18:00</td>
-	    <td class="socialac">Registration</td>
-	    <td class="break" rowspan="2"><a href="abstracts.html#posters">Posters</a> + bar</td>
-	    <td class="break" rowspan="2"><a href="abstracts.html#posters">Posters</a> + bar</td>
+	    <td class="time">11:45-12:00</td>
 	    <td></td>
-	    <td></td>
+	    <td class="plenary">CT5</td>
+	    <td class="plenary">CT13</td>
+	    <td class="plenary">CT21</td>
+	    <td class="plenary">CT29</td>
+	    <td class="plenary">CT37</td>
 	  </tr>
 	  <tr>
-	    <td class="time">18:00-19:00</td>
-	    <td class="socialac" rowspan="2">Opening reception (incl TESS talk)</td>
+	    <td class="time">12:00-12:15</td>
 	    <td></td>
+	    <td class="plenary">CT6</td>
+	    <td class="plenary">CT14</td>
+	    <td class="plenary">CT22</td>
+	    <td class="plenary">CT30</td>
+	    <td class="plenary">CT38</td>
+	  </tr>
+	  <tr>
+	    <td class="time">12:15-12:30</td>
+	    <td></td>
+	    <td class="plenary">CT7</td>
+	    <td class="plenary">CT15</td>
+	    <td class="plenary">CT23</td>
+	    <td class="plenary">CT31</td>
+	    <td class="plenary">CT39</td>
+	  </tr>
+	  <tr>
+	    <td class="time">12:30-12:45</td>
+	    <td></td>
+	    <td class="plenary">CT8</td>
+	    <td class="plenary">CT16</td>
+	    <td class="plenary">CT24</td>
+	    <td class="plenary">CT32</td>
+	    <td class="plenary">CT40</td>
+	  </tr>
+	  
+	  <tr>
+	    <td class="time">12:45-14:30</td>
+	    <td></td>
+	    <td class="break">Lunch break</td>
+	    <td class="break">Lunch break</td>
+	    <td class="break">Lunch break</td>
+	    <td class="break">Lunch break</td>
+	    <td>End of conference</td>
+	  </tr>
 
+	   <tr>
+	    <td class="time">14:30-16:00</td>
 	    <td></td>
-	    <td></td>
-	    <td></td>
+	   <td class="splinter"><a href="splinters.html">Splinter
+	    sessions 1, 2, 3</a></td>
+	    <td class="splinter"><a href="splinters.html">Splinter
+	    sessions 4, 5, 6</a></td>
+	    <td class="socialac" rowspan="4">
+	      <!-- <a href="excursions.html">Excursions (timing varies
+	    by excursion)</a> -->
+	      Social Events
+	    </td>
+	    <td class="splinter"><a href="splinters.html">Splinter
+	      sessions 7, 8, 9</a></td>
+	    <td class="socialac" rowspan="4">
+	      <!-- <a href="excursions.html">Excursions (timing varies
+	    by excursion)</a> -->
+	      BBQ at Toulouse Observatory
+	    </td>
 	  </tr>
 	  <tr>
-	    <td class="time">19:00-20:30</td>
-	    <td class="workshop"
-	     rowspan="2"><a href="splinters.html#chara">Meet the CHARA
-	     Array</a></td>
-	    <td class="workshop"><a href="#liveoutside">Academics to industry</a></td>
-	    <td></td>
-	    <td class="socialac" rowspan="2"><a href="travel.html#banquet">Banquet</a></td>
-	    <td></td>
-	    <td></td>
+	    <td class="time">16:00-16:30</td>
+	    <td class="socialac" rowspan="3"> Pre-registration </td>
+	    <td class="break">Coffee break + Posters</td>
+	    <td class="break">Coffee break + Posters</td>
+	    <td class="break">Coffee break + Posters</td>
 	  </tr>
 	  <tr>
-	    <td class="time">20:30-22:00</td>
+	    <td class="time">16:30-18:00</td>
+	    <td class="splinter"><a href="splinters.html">Splinter
+	    sessions 1, 2, 3</a></td>
+	    <td class="splinter"><a href="splinters.html">Splinter
+	    sessions 4, 5, 6</a></td>
+	    <td class="splinter"><a href="splinters.html">Splinter
+	    sessions 7, 8, 9</a></td>
+	  </tr>
+	  <tr>
+	    <td class="time">18:00-19:30</td>
+	    <td class="break">Posters</td>
+	    <td class="workshop">Invited
+	    Lecture: Nobel Prize Prof. M. Mayor</td>
+	    <td class="break">Posters</td>
+	  </tr>
+	  
+	  <tr>
+	    <td class="time"> from 19:30 </td>
+	    <td></td>
+	    <!-- <td class="socialac"><a
+	    href="travel.html#banquet">Ice Breaker</a></td> -->
+	    <td class="socialac">Ice Breaker</td>
 	    <td></td>
 	    <td></td>
+	    <!--<td class="socialac"><a href="travel.html#banquet">Banquet</a></td>-->
+	    <td class="socialac">Banquet</td>
 	    <td></td>
-	    <td></td>
-	    <td></td>
+	  </tr>
 	</table>
-
       </div>
-      //-->
- 
+      &nbsp
+     
       <!--
       <h2><span>Gender Survey</span></h2>
       <div class="c12 row">
