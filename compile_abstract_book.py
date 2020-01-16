@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-'''Compile CS20 abstract book
+'''Compile CS21 abstract book
 
-This script compiles the CS20 abstract book.
+This script compiles the CS21 abstract book.
 It uses Jinja2 templates. There is a general template in /templates
 
 This script needs to be executed in the exact directory where it is now,
@@ -28,10 +28,11 @@ env = Environment(loader=FileSystemLoader(['templates']),
 if not os.path.exists(args.outpath):
     os.makedirs(args.outpath)
 
-data = pagepy.contributions.data(**vars(args))
+#data = pagepy.contributions.data(**vars(args))
+data = pagepy.abstracts.data(**vars(args))
 
 tex_templates = ['abstractbook-long.tex']
-images = ['print_images/Logoround-04.png']
+images = ['images/CS21baniere.jpg']
 
 for tempfile in tex_templates:
     template = env.get_template(tempfile)

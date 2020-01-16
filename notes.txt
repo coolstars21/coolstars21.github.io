@@ -1,22 +1,29 @@
-GENERAL NOTES on how to use these source files 
+GENERAL NOTES on how to use these source files (python 3 needed!)
 
 python programs on main directory:
-       - compile_web.py: main python program to create the html pages. To be used with python 3 as follows:
-       	 > ipython3
-	 > run compile_web.py online
-	 with online the name of the directory where all source files will be written. That directory should then be uploaded on the github page.
+       - compile_web.py: main python program to create the html pages. To be used with ipython as follows:
+	 > run compile_web.py -a data/abstracts.csv online
+	 with online the name of the directory where all source files will be written, and data/abstracts.csv the sheet file extracted from a google form which contains all data from the abstract registration form. The content of the online directory should then be uploaded on the github page.
 
-	 - compile_abstract_book.py: python script which creates the booklet of abstracts via LaTeX. Apparently abstracts were submitted as google forms, not really clear how it works...
+	 - compile_abstract_book.py: python script that creates the booklet of abstracts with LaTeX via data collected from a google form sheet
+	> run compile_web.py -a data/abstracts.csv online
+	> run compile_abstract_book -a data/abstracts.csv online
 
 	 - copy_times.py: header is quite clear but I don't see where it's used...? same for script_helper.py
 
 	 - match_reglists.py: do a lot of things on register list as its name suggests!! even makes badges...
 
+****************************************
+notes on the google form (January 2020):
+****************************************
+once csv file is downloaded via the google form, columns names need to be changed (Authors, Affiliations, type, Publish first author contact information? etc.)
+then several columns need to be added: index, day, time, Link to electronic material, youtubelink, pdflink. The index row is used to sort out posters. The other rows can be left blank for now. We will add day and time once accepted talks are scheduled. Electronic material will come after the conference.
+
 
 python programs in pagepy directory:
        - index.py: imports name of LOC and SOC members from data/*csv files, and import slide-* images for in images directory for carroussel
        - contributions.py: imports name of attendees in data/attendees.csv file
-       - abstracts.py: work out abstracts, apparently from a csv file located in data. It seems that the csv file has a well defined structure (different rows with first author, authors list, affiliations etc.). If we use it, we'll need to make sure we work out a similar file.
+       - abstracts.py: works out abstracts from a csv file located in data. The csv file has a well defined structure (different rows with first author, authors list, affiliations etc.). If we use it, we'll need to make sure we work out a similar file.
 
 
 html source files in pagesrc directory:

@@ -4,15 +4,14 @@ import numpy as np
 import csv
 from astropy.table import Table, Column, join
 
-dates = {'': [2018, 8, 28],  # Posters don't have a date. They should be displayed last.
-         'TBA': [2018, 7, 28],
-         'Sun': [2018, 7, 29],
-         'Mon': [2018, 7, 30],
-         'Tue': [2018, 7, 31],
-         'Wed': [2018, 8, 1],
-         'Thu': [2018, 8, 2],
-         'Fri': [2018, 8, 3],
-         'Sat': [2018, 8, 4]}
+dates = {'': [2020, 6, 26],  # Posters don't have a date. They should be displayed last.
+         'TBA': [2020, 6, 21],
+         'Sun': [2020, 6, 21],
+         'Mon': [2020, 6, 22],
+         'Tue': [2020, 6, 23],
+         'Wed': [2020, 6, 24],
+         'Thu': [2020, 6, 25],
+         'Fri': [2020, 6, 26]}
 '''Mapping between 3-character day code and date'''
 
 
@@ -62,9 +61,20 @@ def combine_affils(affils):
         return '; '.join(['({}) {}'.format(i + 1, a) for i, a in enumerate(affils)])
 
 
+def combine_authors_affils(authors,affils):
+    if len(authors) != 1:
+        if len(affils) != 1:
+            return ['{} ({})'.format(a,i+1) for i,a in enumerate(authors)]
+        else:
+            return authors
+    else:
+        return authors
+
+
 def loctime(row):
     if row['type'] == 'poster':
-        return 'poster number: {}'.format(row['poster number'])
+        #return 'poster number: {}'.format(row['poster number'])
+        return 'poster number: {}'.format(row['index'])
     elif (row['type'] == 'invited') or (row['type'] == 'contributed'):
         if ('day' in row.colnames) and (row['day'] != ''):
             d = row['day']
@@ -117,10 +127,17 @@ def process_google_form_value(tab, **kwargs):
 
     This function add new colums to a table ``tab``.
     '''
+
     tab['authorlist'] = [r.split(';') for r in tab['Authors']]
     tab['First author'] = [r[0].split('(')[0].strip() for r in tab['authorlist']]
+    
     tab['affiliations'] = [r.split(';') for r in tab['Affiliations']]
     tab['affiliations'] = [combine_affils(r) for r in tab['affiliations']]
+
+    for i in range(len(tab['authorlist'])):
+        if tab['Affiliations'][i] != tab['affiliations'][i]:
+            tab['authorlist'][i] = combine_authors_affils(tab['authorlist'][i],tab['affiliations'][i])
+    
     tab['binary_time'] = [parse_day_time(r['day'], r['time']) for r in tab]
 
     team = Column(length=len(tab), dtype='<U140')
@@ -130,10 +147,11 @@ def process_google_form_value(tab, **kwargs):
             tab['First author'][i] = a
             team[i] = ' for ' + b
     tab['team'] = team
-    for i, t in enumerate(tab['team']):
-        if t != '':
-            tab['authorlist'][i][0] = tab['authorlist'][i][0].split(' for ')[0] + ' (1)'
-            tab['affiliations'][i] = '(1) ' + tab['affiliations'][i]
+
+    #for i, t in enumerate(tab['team']):
+    #    if t != '':
+    #        tab['authorlist'][i][0] = tab['authorlist'][i][0].split(' for ')[0] + ' (1)'
+    #        tab['affiliations'][i] = '(1) ' + tab['affiliations'][i]
 
     # Poster submissions will always be accepted as poster unless specifically
     # marked otherwise
@@ -148,6 +166,7 @@ def process_google_form_value(tab, **kwargs):
     ind_poster = tab['type'] == 'poster'
     posters = tab[ind_poster]
 
+    '''
     # check it's a number otherwise sort will fail because string sorting will
     # give different answers
     if not np.issubdtype(posters['poster number'].dtype, np.integer):
@@ -160,8 +179,21 @@ def process_google_form_value(tab, **kwargs):
         for i in (unique_counts > 1).nonzero()[0]:
             print('{}  is assigned to {} posters'.format(unique_numbers[i],
                                                          unique_counts[i]))
+    '''
+    # check it's a number otherwise sort will fail because string sorting will
+    # give different answers
+    if not np.issubdtype(posters['index'].dtype, np.integer):
+        print('Poster numbers are not integers - they might be sorted randomly.')
+    # check that no two posters have the same number
+    unique_numbers, unique_counts = np.unique(posters['index'],
+                                              return_counts=True)
+    if (unique_counts > 1).sum() > 0:
+        print('The following poster numbers are used more than once:')
+        for i in (unique_counts > 1).nonzero()[0]:
+            print('{}  is assigned to {} posters'.format(unique_numbers[i],
+                                                         unique_counts[i]))
 
-
+    
 def read_abstracts_table(filename, **kwargs):
     out = []
     with open(filename, newline='') as f:
@@ -194,10 +226,13 @@ def data(**kwargs):
     ind_poster = abstr['type'] == 'poster'
 
     talks = abstr[ind_talk]
-    talks.sort(['binary_time', 'type', 'Select a major science topic'])
+    #talks.sort(['binary_time', 'type', 'Select a major science topic'])
+    talks.sort(['binary_time', 'type'])
     posters = abstr[ind_poster]
+    '''
     posters['intnumber'] = [int(i) for i in posters['poster number']]
     posters.sort(['intnumber', 'Authors'])
+    '''
 
     #import pdb
     #pdb.set_trace()
@@ -213,11 +248,15 @@ def data(**kwargs):
 
     if not kwargs['output_unassigned']:
         abstr = abstr[abstr['type'] != '']
+    '''
     abstr.sort(['binary_time', 'poster number'])
+    '''
+    abstr.sort(['binary_time'])
     abstr['index'] = np.arange(1.0 * len(abstr))
     write_json_abstracts(abstr)
 
-    notype.sort(['Select a major science topic', 'Authors'])
+    #notype.sort(['Select a major science topic', 'Authors'])
+    notype.sort(['Authors'])
     unass = notype if kwargs['output_unassigned'] else []
 
     return {'talks': talks, 'posters': posters, 'unassigned': unass}
