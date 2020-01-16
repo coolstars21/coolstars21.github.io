@@ -1,0 +1,29 @@
+{% macro single_abstract_any_type(t) -%}
+\section[{{t['First author']}}: {{t['Title']|replace('&', '\\&')}}] { {{t['Title']|replace('&', '\\&')}} }
+\textbf{ {{ t['authorlist'][0] }}}{% if t['Publish first author contact information?'] %}\footnote{\href{mailto: {{ t['Email Address'] }}}{{ '{' }}{{ t['Email Address'] }}} }{%- endif %}
+{%- for a in t['authorlist'][1:] %}; {{ a }}{% endfor %}{{ t['team'] }}\\
+    {{ t['affiliations']|replace('&', '\\&') }}\\
+
+
+    {% if ((t['type'] == 'invited') or (t['type'] == 'contributed')) %}
+    \noindent
+    science theme: {{ t['Select a major science topic'] }}\\
+    \emph{schedule: {{ t['day']|default('TBA', true) }}, {{
+          t['time']|default('TBA', true) }} {% if t['type'] == 'invited' %} (invited) {% endif %} }\\
+{% elif t['type'] == 'poster' %}
+    \emph{poster number: {{ t['poster number']|default('TBA') }} }\\
+{% else %}
+  \noindent
+  science theme: {{ t['Select a major science topic'] }}\\
+  \emph{scheduling information or poster number goes here}
+       {% endif %}
+
+ 
+    {% if t['Link to electronic material'] %}
+\noindent
+see also \url{ {{ t['Link to electronic material'] }} }\\{% endif %}
+\vspace{3 mm}
+
+      {{ t['Abstract']|replace('&', '\\&')|replace('%', '\\%')|replace('~','$\\sim$') }}
+        
+{%- endmacro %}

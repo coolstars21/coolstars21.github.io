@@ -1,29 +1,45 @@
-{% macro single_abstract_any_type(t) -%}
-\section[{{t['First author']}}: {{t['Title']|replace('&', '\\&')}}] { {{t['Title']|replace('&', '\\&')}} }
-\textbf{ {{ t['authorlist'][0] }}}{% if t['Publish first author contact information?'] %}\footnote{\href{mailto: {{ t['Email Address'] }}}{{ '{' }}{{ t['Email Address'] }}} }{%- endif %}
-{%- for a in t['authorlist'][1:] %}; {{ a }}{% endfor %}{{ t['team'] }}\\
-    {{ t['affiliations']|replace('&', '\\&') }}\\
+\noindent\rule{\textwidth}{1pt}{% macro single_abstract_any_type(t) -%}
 
+\section[{{t['Title']|replace('&', '\\&')}} \newline({{t['First author']}})] { {{t['Title']|replace('&', '\\&')}} }
 
-    {% if ((t['type'] == 'invited') or (t['type'] == 'contributed')) %}
-    \noindent
-    science theme: {{ t['Select a major science topic'] }}\\
-    \emph{schedule: {{ t['day']|default('TBA', true) }}, {{
-          t['time']|default('TBA', true) }} {% if t['type'] == 'invited' %} (invited) {% endif %} }\\
+%%% ===========================================
+%%% Show schedule as a margin note for talks, or poster number for posters
+%%% ===========================================
+
+{% if ((t['type'] == 'invited') or (t['type'] == 'contributed')) %}
+\marginnote{ {{ t['day']|default('TBA', true) }} \\ {{
+          t['time']|default('TBA', true) }} \\ {% if t['type'] == 'invited' %} (invited) {% endif %} }[0cm]
+
 {% elif t['type'] == 'poster' %}
-    \emph{poster number: {{ t['poster number']|default('TBA') }} }\\
-{% else %}
-  \noindent
-  science theme: {{ t['Select a major science topic'] }}\\
-  \emph{scheduling information or poster number goes here}
-       {% endif %}
+\marginnote{ poster {{ t['poster number']|default('TBA') }} }[0cm]
 
- 
-    {% if t['Link to electronic material'] %}
-\noindent
-see also \url{ {{ t['Link to electronic material'] }} }\\{% endif %}
-\vspace{3 mm}
+{% endif %}
 
-      {{ t['Abstract']|replace('&', '\\&')|replace('%', '\\%')|replace('~','$\\sim$') }}
-        
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+    
+%{\large {{ t['authorlist'][0] }}}{%- for a in t['authorlist'][1:] %};{ \large {{ a }}}{% endfor %}{{ t['team'] }}\\
+{\large {{ t['authorlist'][0] }}}{%- for a in t['authorlist'][1:] %};{ \large {{ a }}}{% endfor %}\\
+  
+\vspace{2 mm}
+\noindent {{ t['affiliations']|replace('&', '\\&') }}\\
+
+\end{center}
+
+{% if t['Link to electronic material'] %}
+%\noindent
+% see also \url{ {{ t['Link to electronic material'] }} }\\{% endif %}
+
+%%% ===========
+%%% Display abstract
+%%% ===========
+  
+\vspace{2 mm}
+\noindent {{ t['Abstract']|replace('&', '\\&')|replace('%', '\\%')|replace('~','$\\sim$') }}
+
+%%% separation with a double line
+\noindent\doubleline
+
 {%- endmacro %}

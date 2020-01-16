@@ -1,145 +1,356 @@
 
-\documentclass[11pt,twoside, openright]{report}
-\usepackage{latexsym}
-\usepackage[twoside,bindingoffset=1cm,inner=2cm,outer=2cm,bottom=3cm,top=2.5cm,headsep=1.0cm]{geometry}
+
+  
+  
+  
+  
+  
+  
+\documentclass[a4paper,11pt]{book}
+
+\usepackage{marginnote}
+\usepackage[left=2.1cm,top=2.4cm,right=2.1cm,bottom=2.2cm,marginparwidth=1.2cm]{geometry}
 \usepackage{amsmath}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{hyperref}
 \usepackage[T1]{fontenc}
-%\usepackage{showframe}
 
+\usepackage{latexsym}
 \usepackage{fancyhdr}
-\setlength{\headheight}{15pt}
 
 \pagestyle{fancy}
-
 \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[RE]{\textit{ \nouppercase{ \leftmark } } }
-\fancyhead[LO]{\textit{ Cool Stars 20 abstract booklet } }
-\fancyfoot[C]{last updated: \today}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
 
-\fancypagestyle{plain}{
-  \fancyhf{}
-  \renewcommand{\headrulewidth}{0pt}
-  \renewcommand{\footrulewidth}{0pt}
-  \fancyfoot[C]{last updated: \today}
+% added by CB 01/2020
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\familydefault}{\sfdefault}
+%\makeatletter
+%\renewcommand{\@seccntformat}[1]{}
+%\makeatother
+\usepackage{titlesec,xcolor}
+\definecolor{sitecolor}{HTML}{c95c50}
+\titleformat{\section}[block]{\color{sitecolor}\Large\bfseries\filcenter}{}{1em}{}
+\def\doubleline{
+\hrule width \hsize height 0.5pt  \kern 1mm \hrule width \hsize height 0.5pt 
 }
+\setcounter{secnumdepth}{0} % sections are level 1
+\usepackage[backref, pagebackref=false, hyperindex=true, breaklinks=true, colorlinks=true, urlcolor=magenta, linkcolor=sitecolor, citecolor=NavyBlue, citebordercolor={0 1 0}, pagecolor=red, bookmarks=true, filecolor=blue,bookmarksopen=true, plainpages=false, pdfpagemode=UseThumbs,linktocpage=true]{hyperref}
+\usepackage{pdflscape} % schedule displayed in landscape format
+% -----------------
+
 
 \begin{document}
+
+\frontmatter
+
+\thispagestyle{empty}
 \begin{titlepage}
   \centering
-  \includegraphics[width=.6\textwidth]{Logoround-04}
-  \vspace{2cm}
-  \par{\scshape\LARGE $20^{th}$ Cambridge Workshops of Cool Stars, Stellar Systems and the Sun \par}
-  \vspace{1cm}{\scshape\Large July 29 - Aug 3 2018, Boston / Cambridge, USA \par}
-  \vspace{1.5cm}
-  {\huge\bfseries Abstract booklet\par}
-  \vfill
-
-        % Bottom of the page
+  \includegraphics[width=.99\textwidth]{images/CS21baniere.jpg}
+  \vspace{\stretch{1}}
+  \par{\Huge 21st Cambridge Workshop: Cool Stars,\\ Stellar Systems and the Sun \par}
+  \vspace{\stretch{0.5}}
+  \par{\LARGE 22 - 26 June 2020\\  Toulouse, France \par}
+  \vspace{\stretch{1}}
+  \par{\Huge\bfseries Abstracts\par}
+  \vspace{5cm}
+  \newpage
+  \thispagestyle{empty}
+  \vspace*{\fill}
+  % Bottom of the page
   {\large Last updated: \today\par}
 \end{titlepage}
 
+\thispagestyle{empty}
 \tableofcontents
 
-\chapter{Talks}
+% Include notes on internet connection at conference:
+\newpage
+\addcontentsline{toc}{chapter}{Connection to Internet}
+
+\par\noindent{\huge {\bf Connection to Internet}}
+\\
+\\
+\par\noindent TBD (Eduroam etc.)
+% Include foreword from the SOC chair:
+\newpage
+\addcontentsline{toc}{chapter}{Foreword}
+
+\par\noindent{\huge {\bf Foreword}}
+\\
+\\
+\par\noindent From the chair SOC
+% Include code of conduct:
+\newpage
+\addcontentsline{toc}{chapter}{Code of Conduct \& Contact Information}
+
+\par\noindent{\huge {\bf Code of Conduct \& Contact Information}}
+\\
+\\
+\par\noindent Something similar to CS20?
+% Include maps of the convention centre:
+\newpage
+\addcontentsline{toc}{chapter}{Maps}
+
+\par\noindent{\huge {\bf Maps}}
+\\
+\\
+\par\noindent Include local maps of Convention Centre etc.
+% Include conference schedule:
+\newpage
+\addcontentsline{toc}{chapter}{Conference Schedule}
+
+\begin{landscape}
+\par\noindent{\huge {\bf Conference Schedule}}
+\\
+\\
+\begin{center}
+\includegraphics[width=1.15\textheight]{images/schedule.png}
+\end{center}
+
+\end{landscape}
+% Include information on conference proceedings:
+\newpage
+\addcontentsline{toc}{chapter}{Instructions for the Conference Proceedings}
+
+\par\noindent{\huge {\bf Instructions for the Conference Proceedings}}
+\\
+\\
+\par\noindent TBD (Zenodo etc.)
+
+\mainmatter
+
+
+\chapter*{Talks}
+\addcontentsline{toc}{chapter}{Talks}
         
-          \section[Clément Baruteau: MWC 758] { MWC 758 }
-\textbf{ Clément Baruteau}\footnote{\href{mailto: clement.baruteau@free.fr}{clement.baruteau@free.fr} };  Marcelo Barazza\\
-    (1) IRAP; (2)  IPAG\\
+          \section[Intermittent planet migration and the formation of multiple dust rings in protoplanetary disks \newline(Gaylor Wafflard-Fernandez)] { Intermittent planet migration and the formation of multiple dust rings in protoplanetary disks }
+
+%%% ===========================================
+%%% Show schedule as a margin note for talks, or poster number for posters
+%%% ===========================================
 
 
+\marginnote{ TBA \\ TBA \\  }[0cm]
+
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
     
-    \noindent
-    science theme: Stars\\
-    \emph{schedule: Mon, 8:45 - 9:15  }\\
+%{\large Gaylor Wafflard-Fernandez};{ \large  Clément Baruteau}\\
+{\large Gaylor Wafflard-Fernandez};{ \large  Clément Baruteau}\\
+  
+\vspace{2 mm}
+\noindent IRAP, Université de Toulouse\\
+
+\end{center}
+
+
+
+%%% ===========
+%%% Display abstract
+%%% ===========
+  
+\vspace{2 mm}
+\noindent An important challenge for understanding protoplanetary disks and planetary formation is to be able to make a reliable connection between observed structures like bright and dark rings or asymmetries in radio emission observations provided by ALMA and the supposed presence of forming planets triggering these structures. Usually, the presence of N dark rings that are observed in real disks is interpreted as the presence of N fixed planets which would each create an accumulation of dust near the local maximum in the disk gas pressure. We show here that other configurations can explain these multiple rings. We use gas and dust hydrodynamical simulations with the 2D code FARGO to study the impact of the migration of a Saturn mass planet on the dust content of massive protoplanetary disks. When migration slows down, a pressure maximum forms beyond the plant that traps the large dust. We find a regime for which the planet migrates intermittently, with multiple runaway phases that lead to the formation of multiple sets of bright and dark rings beyond the planet’s location.
+
+%%% separation with a double line
+\noindent\doubleline
+        
+          \section[Dust traps in the protoplanetary disc MWC 758: two vortices produced by two giant planets? \newline(Clément Baruteau)] { Dust traps in the protoplanetary disc MWC 758: two vortices produced by two giant planets? }
+
+%%% ===========================================
+%%% Show schedule as a margin note for talks, or poster number for posters
+%%% ===========================================
+
+
+\marginnote{ TBA \\ TBA \\  }[0cm]
+
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+    
+%{\large Clément Baruteau (1)};{ \large  Marcelo Barraza (2)};{ \large  Sebastián Pérez (3)};{ \large  Simon Casassus (4)};{ \large  Ruobing Dong (5)};{ \large  Wladimir Lyra (6)};{ \large  Sebastián Marino (7)};{ \large  Valentin Christiaens (8)};{ \large  Zhaohuan Zhu (9)};{ \large  Andrés Carmona (10)};{ \large  Florian Debras (11)};{ \large  Felipe Alarcon (12)}\\
+{\large Clément Baruteau (1)};{ \large  Marcelo Barraza (2)};{ \large  Sebastián Pérez (3)};{ \large  Simon Casassus (4)};{ \large  Ruobing Dong (5)};{ \large  Wladimir Lyra (6)};{ \large  Sebastián Marino (7)};{ \large  Valentin Christiaens (8)};{ \large  Zhaohuan Zhu (9)};{ \large  Andrés Carmona (10)};{ \large  Florian Debras (11)};{ \large  Felipe Alarcon (12)}\\
+  
+\vspace{2 mm}
+\noindent (1) IRAP, Université de Toulouse; (2)  Universidad de Chile \& Max Planck Institute for Astronomy; (3)  Universidad de Chile; (4)  Universidad de Chile; (5)  University of Arizona; (6)  California State University Northridge \& Jet Propulsion Laboratory; (7)  Max Planck Institute for Astronomy; (8)  Universidad de Chile \& Monash Centre for Astrophysics; (9)  University of Nevada; (10)  IRAP, Université de Toulouse; (11)  IRAP, Université de Toulouse; (12)  Universidad de Chile\\
+
+\end{center}
+
+
+
+%%% ===========
+%%% Display abstract
+%%% ===========
+  
+\vspace{2 mm}
+\noindent Resolved ALMA and VLA observations indicate the existence of two dust traps in the protoplanetary disc MWC 758. By means of 2D gas+dust hydrodynamical simulations post-processed with 3D dust radiative transfer calculations, we show that the spirals in scattered light, the eccentric, asymmetric ring and the crescent-shaped structure in the (sub)millimetre can all be caused by two giant planets: a 1.5-Jupiter mass planet at 35 au (inside the spirals) and a 5-Jupiter mass planet at 140 au (outside the spirals). The outer planet forms a dust-trapping vortex at the inner edge of its gap (at 85 au), and the continuum emission of this dust trap reproduces the ALMA and VLA observations well. The outer planet triggers several spiral arms which are similar to those observed in polarised scattered light. The inner planet also forms a vortex at the outer edge of its gap (at 50 au), but it decays faster than the vortex induced by the outer planet, as a result of the disc’s turbulent viscosity. The vortex decay can explain the eccentric inner ring seen with ALMA as well as the low signal and larger azimuthal spread of this dust trap in VLA observations. Finding the thermal and kinematic signatures of both giant planets could verify the proposed scenario.
+
+%%% separation with a double line
+\noindent\doubleline
+        
+          \section[Migrating super-Earths in low-viscosity discs: unveiling the roles of feedback, vortices, and laminar accretion flows \newline(Colin P. McNally)] { Migrating super-Earths in low-viscosity discs: unveiling the roles of feedback, vortices, and laminar accretion flows }
+
+%%% ===========================================
+%%% Show schedule as a margin note for talks, or poster number for posters
+%%% ===========================================
+
+
+\marginnote{ TBA \\ TBA \\  }[0cm]
+
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+    
+%{\large Colin P. McNally (1)};{ \large  Richard P. Nelson (2)};{ \large  Sijme-Jan Paardekooper (3)};{ \large  Pablo Benítez-Llambay (4)}\\
+{\large Colin P. McNally (1)};{ \large  Richard P. Nelson (2)};{ \large  Sijme-Jan Paardekooper (3)};{ \large  Pablo Benítez-Llambay (4)}\\
+  
+\vspace{2 mm}
+\noindent (1) Queen Mary University of London; (2)  Queen Mary University of London; (3)  Queen Mary University of London \& University of Cambridge; (4)  Niels Bohr International Academy \\
+
+\end{center}
+
+
+
+%%% ===========
+%%% Display abstract
+%%% ===========
+  
+\vspace{2 mm}
+\noindent We present the highest resolution study to date of super-Earths migrating in inviscid and low- viscosity discs, motivated by the connection to laminar, wind-driven models of protoplanetary discs. Our models unveil the critical role of vortices in determining the migration behaviour for partial gap-opening planets. Vortices form in pressure maxima at gap edges, and prevent the disc-feedback stopping of migration for intermediate planets in low-viscosity and inviscid discs, contrary to the concept of the ‘inertial limit’ or ‘disc feedback’ halting predicted from analytical models. Vortices may also form in the corotation region, and can dramatically modify migration behaviour through direct gravitational interaction with the planet. These features become apparent at high resolution, and for all but the highest viscosities there exist significant difficulties in obtaining numerically converged results. The migration of partial gap-opening planets, however, clearly becomes chaotic for sufficiently low viscosities. At moderate viscosity, a smooth disc-feedback regime is found in which migration can slow substantially, and the migration time-scale observed corresponds to migration being driven by diffusive relaxation of the gap edges. At high viscosity classical Type I migration is recovered. For Jupiter-analogue planets in inviscid discs, a wide, deep gap is formed. Transient Type II migration occurs over radial length-scales corresponding to the gap width, beyond which migration can stall. Finally, we examine the particle trapping driven by structures left in inviscid discs by a migrating planet, and find that particle traps in the form of multiple rings and vortices can persist long after the planet has passed. In this case, the observation of particle traps by submillimetre interferometers such as ALMA cannot be used to infer the current presence of an adjacent planet. 
+
+%%% separation with a double line
+\noindent\doubleline
+        
+          \section[Dispersal of protoplanetary disks by the combination of magnetically driven and photoevaporative winds \newline(M. Kunitomo)] { Dispersal of protoplanetary disks by the combination of magnetically driven and photoevaporative winds }
+
+%%% ===========================================
+%%% Show schedule as a margin note for talks, or poster number for posters
+%%% ===========================================
+
+
+\marginnote{ TBA \\ TBA \\  }[0cm]
+
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+    
+%{\large M. Kunitomo}\\
+{\large M. Kunitomo}\\
+  
+\vspace{2 mm}
+\noindent Kurume University, Japan\\
+
+\end{center}
+
+
+
+%%% ===========
+%%% Display abstract
+%%% ===========
+  
+\vspace{2 mm}
+\noindent We investigate the roles of magnetically driven disk wind (MDW) and thermally driven photoevaporative wind (PEW) in the long-time evolution of protoplanetary disks. We start simulations from the early phase in which the disk mass is 0.118 Solar masses around a 1 $M_\star$ star and track the evolution until the disk is completely dispersed. We incorpo- rate the mass loss by PEW and the mass loss and magnetic braking (wind torque) by MDW, in addition to the viscous accretion, viscous heating, and stellar irradiation. We find that MDW and PEW respectively have different roles: magnetically driven wind ejects materials from an inner disk in the early phase, whereas photoevaporation has a dominant role in the late phase in the o 1 au) disk. The disk lifetime, which depends on the combination of MDW, PEW, and viscous accretion, shows a large variation of 120 Myr; the gas is dispersed mainly by the MDW and the PEW in the cases with a low viscosity and the lifetime is sensitive to the mass-loss rate and torque of the MDW, whereas the lifetime is insensitive to these parameters when the viscosity is high. Even in disks with very weak turbulence, the cooperation of MDW and PEW enables the disk dispersal within a few Myr.
+
+%%% separation with a double line
+\noindent\doubleline
+        
+
+
+
+\chapter*{Posters}
+    \addcontentsline{toc}{chapter}{Posters}
+        
+          \section[A signature of planetary migration: the origin of the $2:1$ mean-motion resonance: $M_\oplus$ $M_\odot$ $\sim$ $\geq$ \newline(R. Murray-Clay)] { A signature of planetary migration: the origin of the $2:1$ mean-motion resonance: $M_\oplus$ $M_\odot$ $\sim$ $\geq$ }
+
+%%% ===========================================
+%%% Show schedule as a margin note for talks, or poster number for posters
+%%% ===========================================
+
+
+\marginnote{ poster TBA }[0cm]
+
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+    
+%{\large R. Murray-Clay for the UCSC team} for the UCSC team\\
+{\large R. Murray-Clay for the UCSC team}\\
+  
+\vspace{2 mm}
+\noindent University of California at Berkeley\\
+
+\end{center}
+
+
+
+%%% ===========
+%%% Display abstract
+%%% ===========
+  
+\vspace{2 mm}
+\noindent The spatial distribution of Kuiper Belt objects (KBOs) in $2:1$ exterior resonance with Neptune constrains that planet’s migration history. Numerical simulations demonstrate that fast planetary migration generates a larger population of KBOs trailing rather than leading Neptune in orbital longitude. This asymmetry corresponds to a greater proportion of objects caught into asymmetric resonance such that their resonance angless librate about values greater than (trailing) as opposed to less than (leading). We provide, for the first time, an explanation of this phenomenon, using physical, analytic, and semianalytic arguments.
+
+%%% separation with a double line
+\noindent\doubleline
+        
+          \section[Cold dust emission from large-scale vortices induced by gap-opening planets \newline(Clément Baruteau)] { Cold dust emission from large-scale vortices induced by gap-opening planets }
+
+%%% ===========================================
+%%% Show schedule as a margin note for talks, or poster number for posters
+%%% ===========================================
+
+
+\marginnote{ poster TBA }[0cm]
+
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+    
+%{\large Clément Baruteau (1)};{ \large  Zhaohuan Zhu (2)};{ \large  Sebastian Pérez (3)};{ \large  Andrés Carmona (4)}\\
+{\large Clément Baruteau (1)};{ \large  Zhaohuan Zhu (2)};{ \large  Sebastian Pérez (3)};{ \large  Andrés Carmona (4)}\\
+  
+\vspace{2 mm}
+\noindent (1) IRAP, Université de Toulouse; (2)  University of Nevada, Las Vegas; (3)  Universidad de Chile; (4)  IPAG\\
+
+\end{center}
+
+
+
+%%% ===========
+%%% Display abstract
+%%% ===========
+  
+\vspace{2 mm}
+\noindent $M_\oplus$ $M_\odot$ $\sim$ $\geq$ High-resolution interferometric observations in the (sub)-mm have highlighted the presence of bright rings of dust emission in a number of protoplanetary discs. These emission rings are often lopsided, most notably in so-called transition discs. Despite limited observational evidence, these lopsided rings are so far best explained by dust trapping in a large-scale vortex in the gas. We investigate the observable consequences in the radio continuum of dust trapping in a vortex formed at the outer edge of the gap carved by a massive planet in its protoplanetary disc. From the spatial distribution of solid particles obtained in two-fluid 2D hydrodynamical simulations, we produce synthetic maps of the dust’s continuum emission at various wavelengths in the (sub)- mm. A range of disc masses is adopted to examine how gas self-gravity impacts the concentration and emission of solid particles trapped in the vortex. At large gas den- sities at the vortex’s radiaxl location (local background Toomre parameter is a few), gas self-gravity implies that several vortices form that merge and split intermittently. It makes the vortex long-lived and the dust emission forms a large-scale lopsided ring with possibly multiple peaks. Reducing the gas density leads to the formation of a single vortex with a much shorter lifetime. Before the vortex decays, the dust emission is confined to a rather narrow ring along which the flux contrast ratio is large. For moderate gas densities, the emission ring peaks at the vortex’s centre from sub-mm to mm wavelengths, and the azimuthal contrast ratio increases with wavelength. For small gas densities, the emission peak shifts from the vortex’s centre to about 90 de- grees ahead of the latter from sub-mm to mm wavelengths. As the vortex decays, solid particles lose their azimuthal trapping over different timescales depending on their size. This largely reduces the flux contrast ratio along the ring, which can decrease with wavelength.
+
+%%% separation with a double line
+\noindent\doubleline
+        
 
 
  
-    
-\vspace{3 mm}
-
-      Resolved ALMA and VLA observations indicate the existence of two dust traps in the protoplanetary disc MWC 758. By means of 2D gas+dust hydrodynamical simulations post-processed with 3D dust radiative transfer calculations, we show that the spirals in scattered light, the eccentric, asymmetric ring and the crescent-shaped structure in the (sub)millimetre can all be caused by two giant planets: a 1.5-Jupiter mass planet at 35 au (inside the spirals) and a 5-Jupiter mass planet at 140 au (outside the spirals). The outer planet forms a dust-trapping vortex at the inner edge of its gap (at ∼85 au), and the continuum emission of this dust trap reproduces the ALMA and VLA observations well. The outer planet triggers several spiral arms which are similar to those observed in polarised scattered light. The inner planet also forms a vortex at the outer edge of its gap (at ∼50 au), but it decays faster than the vortex induced by the outer planet, as a result of the disc’s turbulent viscosity. The vortex decay can explain the eccentric inner ring seen with ALMA as well as the low signal and larger azimuthal spread of this dust trap in VLA observations. Finding the thermal and kinematic signatures of both giant planets could verify the proposed scenario. 
-
-        
-          \section[Sébastien Deheuvels: Red Giant] { Red Giant }
-\textbf{ Sébastien Deheuvels}\footnote{\href{mailto: clement.baruteau@free.fr}{clement.baruteau@free.fr} };  Anthony Noll;  François Lignières;  Jérôme Ballot\\
-    (1) IRAP; (2)  IPAG; (3)  IRAP; (4)  UCL\\
 
 
-    
-    \noindent
-    science theme: Planets\\
-    \emph{schedule: Tue, 10:30 - 11:00  }\\
-
-
- 
-    
-\vspace{3 mm}
-
-      Whatever its trigger, the RWI leads to the formation of one or several vortices, which tend to merge and form a single large-scale anticyclonic vortex. An anticyclonic vortex forms a patch of closed elliptical streamlines about a local pressure maximum. The vortex flow tends to maintain dust on the same elliptical streamlines, gas drag tends to drive dust to- wards the vortex centre, while dust turbulent diffusion tends to spread it out (Chavanis 2000; Youdin 2010; Lyra \& Lin 2013). In addition, the vortex’s self-gravity causes dust par- ticles to describe horseshoe U-turns relative to the vortex centre, much like in the circular restricted three-body prob- lem, despite the vortex not being a point mass (Baruteau \& Zhu 2016). The competition between the aforementioned ef- fects implies that dust particles of increasing size get trapped farther ahead of the vortex centre in the azimuthal direc- tion (Baruteau \& Zhu 2016). Vortices triggered by the RWI could play a key role in planet formation by slowing down or stalling the dust’s inward drift due to gas drag, while po- tentially allowing dust to grow to planetesimal sizes or even planetary sizes (Lyra et al. 2009; S ́andor et al. 2011). 
-
-        
-          \section[Jérôme Ballot: Heliosismo] { Heliosismo }
-\textbf{ Jérôme Ballot}\footnote{\href{mailto: clement.baruteau@free.fr}{clement.baruteau@free.fr} };  Stéphane Charpinet;  Michel Rieutord;  Quidonc\\
-    (1) IRAP; (2)  UCLA; (3)  UCSC; (4)  CEA\\
-
-
-    
-    \noindent
-    science theme: Disks\\
-    \emph{schedule: Wed, 11:15 - 11:30  (invited)  }\\
-
-
- 
-    
-\vspace{3 mm}
-
-      nsimu(s)ds represents the number of super-particles in the size interval [s, s + ds] in the simulation). This par- ticular scaling of the dust’s size distribution is chosen for computational reasons, as it implies that there is approxi- mately the same number of particles per decade of size. An important note is that the radiative transfer calculations do need a realistic size distribution for the dust, but the only input that they need from the hydrodynamical simulations is the spatial distribution of the dust particles. This is the reason why we can choose any size distribution in the sim- ulations, as long as there is e 
-
-        
-          \section[Laurène Jouve: MRI in stars] { MRI in stars }
-\textbf{ Laurène Jouve}\footnote{\href{mailto: clement.baruteau@free.fr}{clement.baruteau@free.fr} }\\
-    IRAP\\
-
-
-    
-    \noindent
-    science theme: Stars\\
-    \emph{schedule: Thu, 14:30 - 15:15  }\\
-
-
- 
-    
-\vspace{3 mm}
-
-      Turbulent transport of angular momentum is modelled by a constant alpha turbulent viscosity, α = 10−4. This rather low level of turbulence is representative of the discs midplane from a few tens to a hundred au, as suggested by observations of the dust continuum in the submillimetre (see, e.g., Pinte et al. 2016, for the modelling of the HL Tau disc), and according to 3D, non-ideal, local magnetohydro- dynamic (MHD) simulations (although larger α values in the midplane can be obtained depending on the disc model, in particular the amplitude of the vertical magnetic field that threads the disc, see, e.g., Simon et al. 2015, 2018). 
-
-        
-
-
-
-\chapter{Posters}
-        
-          \section[Florian Debras: Jupiter and friends] { Jupiter and friends }
-\textbf{ Florian Debras}\footnote{\href{mailto: clement.baruteau@free.fr}{clement.baruteau@free.fr} };  Jo le Fort\\
-    (1) IRAP; (2)  ENS\\
-
-
-    
-    \emph{poster number: TBA }\\
-
-
- 
-    
-\vspace{3 mm}
-
-      have already started to open a gap around their orbit. The particles are uniformly distributed between 52 au and 102 au, so that they approximately all remain between the gaps over the duration of the simulation. This is meant to maximise the particles resolution at the two dust traps from which Clump 1 and Clump 2 originate in our scenario. Fur- thermore, inspired by the dust trapping predictions of Casas- sus et al. (2019, see their Section 3.2.2), we assume that the dust particles have an internal density ρint = 0.1 g cm−3, independent of particles size, instead of a more conventional internal density of a few g cm−3. Our dust particles can therefore be considered as moderately porous particles. This rather low density is overall consistent with the collection by Rosetta of large (>10 μm) porous ag 
-
-        
-
-
- 
 \end{document}

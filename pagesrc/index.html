@@ -41,7 +41,6 @@
 	<div class="c6">
 	  <ul class="listing">
 	    {% for m in soc[:13] %}
-	    <!--<li>{{m['Full Name']}} - {{m['Institute']}}</li> -->
 	    <li><span style="color: #c95c50;">{{m['Full Name']}}</span> - {{m['Institute']}}</li>
 	    {% endfor %}
 	  </ul>
@@ -49,8 +48,30 @@
 	<div class="c6">
 	  <ul class="listing">
 	    {% for m in soc[13:] %}
-	    <!--<li>{{m['Full Name']}} - {{m['Institute']}}</li>-->
 	    <li><span style="color: #c95c50;">{{m['Full Name']}}</span> - {{m['Institute']}}</li>
+	    {% endfor %}
+	  </ul>
+	</div> 
+      </div>
+      <div class="clearfix"></div>
+
+      <h2><span>LOC</span></h2>
+      <div class="row c12">
+	<p>To contact the SOC or LOC write
+	to: <a href="mailto:cs21@irap.omp.eu">cs21@irap.omp.eu</a></p>
+      </div>
+      <div class="row">
+	<div class="c6">
+	  <ul class="listing">
+	    {% for m in loc[:6] %}
+	    <li><span style="color: #c95c50;">{{m['name']}}</span> - {{m['inst']}}</li>
+	    {% endfor %}
+	  </ul>
+	</div> 
+	<div class="c6">
+	  <ul class="listing">
+	    {% for m in loc[6:] %}
+	    <li><span style="color: #c95c50;">{{m['name']}}</span> - {{m['inst']}}</li>
 	    {% endfor %}
 	  </ul>
 	</div> 
