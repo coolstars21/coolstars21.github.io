@@ -151,7 +151,7 @@ h3 {color:#c95c50;font-weight:400;}
 .portfolio-thumb img {padding:5px;display:block;margin:0 auto;height:100%;width:100%;}
 
 .about img {display:block;margin:0 auto;}
-.name {color:#c95c50;font-size:1.143em;font-weight:600;margin:0;}
+.name {color:#c95c50;font-size:1.143em;font-weight:600;text-align:center;}
 .position {margin:0 0 20px;}
 .listing {margin-left: 20px; text-align: justify;text-justify: inter-word;}
 .sponsor-logo img {max-height:100px}
@@ -221,6 +221,7 @@ div.highlightbox p {
   color: #000000;
 }
 
+splinter_author {color: #696969; font-weight: bold;}
 
 /* FEATURES ON MAP ===============================================================*/
 .marker-pin {

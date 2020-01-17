@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.14)  15 JAN 2020 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.14)  17 JAN 2020 09:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -429,7 +429,7 @@ LaTeX Info: Redefining \nameref on input line 44.
 \@outlinefile=\write3
 \openout3 = `abstractbook-long.out'.
 
-<images/CS21baniere.jpg, id=55, 361.35pt x 120.45pt>
+<images/CS21baniere.jpg, id=75, 361.35pt x 120.45pt>
 File: images/CS21baniere.jpg Graphic file (type jpg)
 <use images/CS21baniere.jpg>
 Package pdftex.def Info: images/CS21baniere.jpg  used on input line 51.
@@ -508,7 +508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--109
 
  []
 
-<images/schedule.png, id=103, 1127.21124pt x 879.285pt>
+<images/schedule.png, id=128, 1127.21124pt x 879.285pt>
 File: images/schedule.png Graphic file (type png)
 <use images/schedule.png>
 Package pdftex.def Info: images/schedule.png  used on input line 110.
@@ -564,127 +564,98 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package marginnote Info: Margin note 12.2 is on absolute page 12 on input line 
 244.
 Package marginnote Info: xpos seems to be 59.75095pt on input line 244.
-[2] [3] [4
+[2]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\newline' on input line 273.
+
+Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 
+280.
+Package marginnote Info: xpos seems to be 59.75095pt on input line 280.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\newline' on input line 309.
+
+Package marginnote Info: Margin note 13.2 is on absolute page 13 on input line 
+316.
+Package marginnote Info: xpos seems to be 59.75095pt on input line 316.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\newline' on input line 345.
+
+Package marginnote Info: Margin note 13.3 is on absolute page 13 on input line 
+352.
+Package marginnote Info: xpos seems to be 59.75095pt on input line 352.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\newline' on input line 381.
+
+Package marginnote Info: Margin note 13.4 is on absolute page 14 on input line 
+388.
+Package marginnote Info: xpos seems to be 59.75095pt on input line 388.
+[3] [4]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 425.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 425.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\newline' on input line 425.
+
+Package marginnote Info: Margin note 15.1 is on absolute page 15 on input line 
+432.
+Package marginnote Info: xpos seems to be 59.75095pt on input line 432.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\newline' on input line 461.
+
+Package marginnote Info: Margin note 15.2 is on absolute page 15 on input line 
+468.
+Package marginnote Info: xpos seems to be 59.75095pt on input line 468.
+[5
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
+(hyperref)                removing `\newline' on input line 497.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\oplus' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\odot' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sim' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\geq' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 279.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 279.
-
-Package marginnote Info: Margin note 15.1 is on absolute page 15 on input line 
-286.
-Package marginnote Info: xpos seems to be 59.75095pt on input line 286.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 315.
-
-Package marginnote Info: Margin note 15.2 is on absolute page 15 on input line 
-322.
-Package marginnote Info: xpos seems to be 59.75095pt on input line 322.
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+Package marginnote Info: Margin note 16.1 is on absolute page 16 on input line 
+504.
+Package marginnote Info: xpos seems to be 59.75095pt on input line 504.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
  (./abstractbook-long.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
-
-
-Package rerunfilecheck Warning: File `abstractbook-long.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `abstractbook-long.out':
-(rerunfilecheck)             Before: 34ACED7DC11BBCAB9674D420A3B926AE;1394
-(rerunfilecheck)             After:  FEB4B6975A7AB0BFE77FC72124A536C7;1404.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
+Package rerunfilecheck Info: File `abstractbook-long.out' has not changed.
+(rerunfilecheck)             Checksum: 088E08349C18391F6E693E2AF983CFDD;2057.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 538.
  ) 
 Here is how much of TeX's memory you used:
- 7315 strings out of 492616
- 103644 string characters out of 6129480
- 215386 words of memory out of 5000000
- 11106 multiletter control sequences out of 15000+600000
+ 7330 strings out of 492616
+ 103824 string characters out of 6129480
+ 215471 words of memory out of 5000000
+ 11116 multiletter control sequences out of 15000+600000
  35774 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,11n,43p,2078b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,11n,43p,2043b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on abstractbook-long.pdf (16 pages, 662283 bytes).
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on abstractbook-long.pdf (16 pages, 654318 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
