@@ -1,0 +1,30 @@
+{% extends "templates/basic.html" %}
+{% set active_page = "Grants" %}
+
+{% block content %}
+
+<div class="container clearfix mt-100 mb-20">
+  {% include "templates/globalmessage.html" ignore missing %}
+
+  <h2><span>Financial support application</span></h2>
+      <div class="c12 row">
+	<p>Please fill this <a
+	href="https://docs.google.com/forms/d/e/1FAIpQLSctzMSaBAgeoeJos2z1_e7kj9Yw1CQdJPGOfKTDWstv-PX4Ug/viewform">form</a>
+	if you wish to submit a grant application to attend CS21.
+
+	<p>The grants will cover the early bird registration fees and the gala
+      dinner. They will not cover travel fees (plane/train
+	tickets). Note that the abstract submitted through this form
+      will <strong>also</strong> have to be submitted through the
+      general <a href="abstracts.html">abstract submission
+      form</a>. If you apply for a grant, please wait until our
+      official decision before registering for CS21, as grantees will
+      have access to a separate, free of charge registration channel. </p>
+
+	<p><strong>Deadline
+	is 02 March 2020</strong>.</p>
+      </div>
+
+      </div>
+      
+{% endblock content %}
