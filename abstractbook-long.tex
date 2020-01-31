@@ -14,7 +14,23 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage[T1]{fontenc}
-
+% Index
+\usepackage{imakeidx}
+\makeatletter
+\def\@idxitem{\par\hangindent 0pt}
+\makeatother
+\usepackage{filecontents}
+\begin{filecontents}{\jobname.mst}
+    heading_prefix "{\\bfseries\\hfil "
+    heading_suffix "\\hfil}\\nopagebreak\n"
+    headings_flag 1
+    symhead_positive ""
+    numhead_positive ""
+    delim_0 "\\dotfill"
+    delim_1 "\\dotfill"
+    delim_2 "\\dotfill"
+\end{filecontents}
+%
 \usepackage{latexsym}
 \usepackage{fancyhdr}
 
@@ -38,11 +54,13 @@
 \setcounter{secnumdepth}{0} % sections are level 1
 \usepackage[backref, pagebackref=false, hyperindex=true, breaklinks=true, colorlinks=true, urlcolor=magenta, linkcolor=sitecolor, citecolor=NavyBlue, citebordercolor={0 1 0}, pagecolor=red, bookmarks=true, filecolor=blue,bookmarksopen=true, plainpages=false, pdfpagemode=UseThumbs,linktocpage=true]{hyperref}
 \usepackage{pdflscape} % schedule displayed in landscape format
-% -----------------
 
+%-----------------
+
+% We will need to build up the authors index at the end of the booklet
+\makeindex[program=makeindex,columns=3,intoc=true,title=Authors index]
 
 \begin{document}
-
 \frontmatter
 
 \thispagestyle{empty}
@@ -128,6 +146,14 @@
         
           \section[Intermittent planet migration and the formation of multiple dust rings in protoplanetary disks \newline(Gaylor Wafflard-Fernandez)] { Intermittent planet migration and the formation of multiple dust rings in protoplanetary disks }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Gaylor Wafflard-Fernandez};{ \large  Clément Baruteau}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -137,13 +163,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Gaylor Wafflard-Fernandez};{ \large  Clément Baruteau}\\
-{\large Gaylor Wafflard-Fernandez};{ \large  Clément Baruteau}\\
+\index{"Wafflard-Fernandez" |textbf }\index{"Baruteau" } 
   
 \vspace{2 mm}
 \noindent IRAP, Université de Toulouse\\
@@ -164,6 +184,14 @@
         
           \section[Dust traps in the protoplanetary disc MWC 758: two vortices produced by two giant planets? \newline(Clément Baruteau)] { Dust traps in the protoplanetary disc MWC 758: two vortices produced by two giant planets? }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Clément Baruteau (1)};{ \large  Marcelo Barraza (2)};{ \large  Sebastián Pérez (3)};{ \large  Simon Casassus (4)};{ \large  Ruobing Dong (5)};{ \large  Wladimir Lyra (6)};{ \large  Sebastián Marino (7)};{ \large  Valentin Christiaens (8)};{ \large  Zhaohuan Zhu (9)};{ \large  Andrés Carmona (10)};{ \large  Florian Debras (11)};{ \large  Felipe Alarcon (12)}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -173,13 +201,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Clément Baruteau (1)};{ \large  Marcelo Barraza (2)};{ \large  Sebastián Pérez (3)};{ \large  Simon Casassus (4)};{ \large  Ruobing Dong (5)};{ \large  Wladimir Lyra (6)};{ \large  Sebastián Marino (7)};{ \large  Valentin Christiaens (8)};{ \large  Zhaohuan Zhu (9)};{ \large  Andrés Carmona (10)};{ \large  Florian Debras (11)};{ \large  Felipe Alarcon (12)}\\
-{\large Clément Baruteau (1)};{ \large  Marcelo Barraza (2)};{ \large  Sebastián Pérez (3)};{ \large  Simon Casassus (4)};{ \large  Ruobing Dong (5)};{ \large  Wladimir Lyra (6)};{ \large  Sebastián Marino (7)};{ \large  Valentin Christiaens (8)};{ \large  Zhaohuan Zhu (9)};{ \large  Andrés Carmona (10)};{ \large  Florian Debras (11)};{ \large  Felipe Alarcon (12)}\\
+\index{"Baruteau" |textbf }\index{"Barraza" } \index{"Pérez" } \index{"Casassus" } \index{"Dong" } \index{"Lyra" } \index{"Marino" } \index{"Christiaens" } \index{"Zhu" } \index{"Carmona" } \index{"Debras" } \index{"Alarcon" } 
   
 \vspace{2 mm}
 \noindent (1) IRAP, Université de Toulouse; (2)  Universidad de Chile \& Max Planck Institute for Astronomy; (3)  Universidad de Chile; (4)  Universidad de Chile; (5)  University of Arizona; (6)  California State University Northridge \& Jet Propulsion Laboratory; (7)  Max Planck Institute for Astronomy; (8)  Universidad de Chile \& Monash Centre for Astrophysics; (9)  University of Nevada; (10)  IRAP, Université de Toulouse; (11)  IRAP, Université de Toulouse; (12)  Universidad de Chile\\
@@ -200,6 +222,14 @@
         
           \section[Migrating super-Earths in low-viscosity discs: unveiling the roles of feedback, vortices, and laminar accretion flows \newline(Colin P. McNally)] { Migrating super-Earths in low-viscosity discs: unveiling the roles of feedback, vortices, and laminar accretion flows }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Colin P. McNally (1)};{ \large  Richard P. Nelson (2)};{ \large  Sijme-Jan Paardekooper (3)};{ \large  Pablo Benítez-Llambay (4)}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -209,13 +239,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Colin P. McNally (1)};{ \large  Richard P. Nelson (2)};{ \large  Sijme-Jan Paardekooper (3)};{ \large  Pablo Benítez-Llambay (4)}\\
-{\large Colin P. McNally (1)};{ \large  Richard P. Nelson (2)};{ \large  Sijme-Jan Paardekooper (3)};{ \large  Pablo Benítez-Llambay (4)}\\
+\index{"McNally" |textbf }\index{"Nelson" } \index{"Paardekooper" } \index{"Benítez-Llambay" } 
   
 \vspace{2 mm}
 \noindent (1) Queen Mary University of London; (2)  Queen Mary University of London; (3)  Queen Mary University of London \& University of Cambridge; (4)  Niels Bohr International Academy \\
@@ -236,6 +260,14 @@
         
           \section[Dispersal of protoplanetary disks by the combination of magnetically driven and photoevaporative winds \newline(M. Kunitomo)] { Dispersal of protoplanetary disks by the combination of magnetically driven and photoevaporative winds }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large M. Kunitomo}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -245,13 +277,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large M. Kunitomo}\\
-{\large M. Kunitomo}\\
+\index{"Kunitomo" |textbf }
   
 \vspace{2 mm}
 \noindent Kurume University, Japan\\
@@ -272,6 +298,14 @@
         
           \section[Magnetic field of Betelgeuse during its supernova phase \newline(Pascal Petit)] { Magnetic field of Betelgeuse during its supernova phase }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Pascal Petit (1)};{ \large  Tianqi Cang (2)};{ \large  Pierre Kervella (3)}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -281,13 +315,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Pascal Petit (1)};{ \large  Tianqi Cang (2)};{ \large  Pierre Kervella (3)}\\
-{\large Pascal Petit (1)};{ \large  Tianqi Cang (2)};{ \large  Pierre Kervella (3)}\\
+\index{"Petit" |textbf }\index{"Cang" } \index{"Kervella" } 
   
 \vspace{2 mm}
 \noindent (1) IRAP, CNRS, Univ. Toulouse, CNES; (2)  IRAP, CNRS, Univ. Toulouse, CNES; (3)  LESIA, Observatoire de Paris\\
@@ -308,6 +336,14 @@
         
           \section[La transhumance des truites \newline(Sébastien Deheuvels)] { La transhumance des truites }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Sébastien Deheuvels };{ \large  Clément Baruteau}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -317,13 +353,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Sébastien Deheuvels };{ \large  Clément Baruteau}\\
-{\large Sébastien Deheuvels };{ \large  Clément Baruteau}\\
+\index{"Deheuvels" |textbf }\index{"Baruteau" } 
   
 \vspace{2 mm}
 \noindent CNRS/Université de Toulouse\\
@@ -344,6 +374,14 @@
         
           \section[Effects of stellar winds on the perfomance of profesional basketball players \newline(Florian Debras)] { Effects of stellar winds on the perfomance of profesional basketball players }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Florian Debras  (1)};{ \large  Michael Jordan (2)}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -353,13 +391,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Florian Debras  (1)};{ \large  Michael Jordan (2)}\\
-{\large Florian Debras  (1)};{ \large  Michael Jordan (2)}\\
+\index{"Debras" |textbf }\index{"Jordan" } 
   
 \vspace{2 mm}
 \noindent (1) IRAP ; (2)  Chicago bulls\\
@@ -380,6 +412,14 @@
         
           \section[What can we learn from global MHD modeling of PSP encounters?  \newline(Victor Réville)] { What can we learn from global MHD modeling of PSP encounters?  }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Victor Réville (1)};{ \large  Marco Velli (2)};{ \large  Anna Tenerani (3)};{ \large  Chen Shi (4)}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -389,13 +429,7 @@
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Victor Réville (1)};{ \large  Marco Velli (2)};{ \large  Anna Tenerani (3)};{ \large  Chen Shi (4)}\\
-{\large Victor Réville (1)};{ \large  Marco Velli (2)};{ \large  Anna Tenerani (3)};{ \large  Chen Shi (4)}\\
+\index{"Réville" |textbf }\index{"Velli" } \index{"Tenerani" } \index{"Shi" } 
   
 \vspace{2 mm}
 \noindent (1) IRAP/CNRS; (2)  University of California Los Angeles; (3)  University of Texas Austin; (4)  University of California Los Angeles\\
@@ -424,6 +458,14 @@ Global MHD models of the corona and solar wind are a key tool of the analysis of
         
           \section[A signature of planetary migration: the origin of the $2:1$ mean-motion resonance \newline(R. Murray-Clay)] { A signature of planetary migration: the origin of the $2:1$ mean-motion resonance }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large R. Murray-Clay for the UCSC team}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -433,13 +475,7 @@ Global MHD models of the corona and solar wind are a key tool of the analysis of
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large R. Murray-Clay for the UCSC team} for the UCSC team\\
-{\large R. Murray-Clay for the UCSC team}\\
+\index{"Murray-Clay" |textbf }
   
 \vspace{2 mm}
 \noindent University of California at Berkeley\\
@@ -460,6 +496,14 @@ Global MHD models of the corona and solar wind are a key tool of the analysis of
         
           \section[Cold dust emission from large-scale vortices induced by gap-opening planets \newline(Clément Baruteau)] { Cold dust emission from large-scale vortices induced by gap-opening planets }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Clément Baruteau (1)};{ \large  Zhaohuan Zhu (2)};{ \large  Sebastian Pérez (3)};{ \large  Andrés Carmona (4)}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -469,13 +513,7 @@ Global MHD models of the corona and solar wind are a key tool of the analysis of
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Clément Baruteau (1)};{ \large  Zhaohuan Zhu (2)};{ \large  Sebastian Pérez (3)};{ \large  Andrés Carmona (4)}\\
-{\large Clément Baruteau (1)};{ \large  Zhaohuan Zhu (2)};{ \large  Sebastian Pérez (3)};{ \large  Andrés Carmona (4)}\\
+\index{"Baruteau" |textbf }\index{"Zhu" } \index{"Pérez" } \index{"Carmona" } 
   
 \vspace{2 mm}
 \noindent (1) IRAP, Université de Toulouse; (2)  University of Nevada, Las Vegas; (3)  Universidad de Chile; (4)  IPAG\\
@@ -496,6 +534,14 @@ Global MHD models of the corona and solar wind are a key tool of the analysis of
         
           \section[The forming slow solar wind imaged along streamer rays by the wide-angle imager on Parker Solar Probe \newline(Nicolas Poirier)] { The forming slow solar wind imaged along streamer rays by the wide-angle imager on Parker Solar Probe }
 
+
+
+%%% ========================
+%%% Display authors and their affiliation(s)
+%%% ========================
+\begin{center}
+{\large Nicolas Poirier (1)};{ \large Alexis P. Rouillard (2)};{ \large Athanasios Kouloumvakos (3)};{ \large Angelos Vourlidas (4)};{ \large Guillermo Stenborg (5)};{ \large Rui Pinto (6)}\\
+
 %%% ===========================================
 %%% Show schedule as a margin note for talks, or poster number for posters
 %%% ===========================================
@@ -505,13 +551,7 @@ Global MHD models of the corona and solar wind are a key tool of the analysis of
 
 
 
-%%% ========================
-%%% Display authors and their affiliation(s)
-%%% ========================
-\begin{center}
-    
-%{\large Nicolas Poirier (1)};{ \large Alexis P. Rouillard (2)};{ \large Athanasios Kouloumvakos (3)};{ \large Angelos Vourlidas (4)};{ \large Guillermo Stenborg (5)};{ \large Rui Pinto (6)}\\
-{\large Nicolas Poirier (1)};{ \large Alexis P. Rouillard (2)};{ \large Athanasios Kouloumvakos (3)};{ \large Angelos Vourlidas (4)};{ \large Guillermo Stenborg (5)};{ \large Rui Pinto (6)}\\
+\index{"Poirier" |textbf }\index{"Rouillard" } \index{"Kouloumvakos" } \index{"Vourlidas" } \index{"Stenborg" } \index{"Pinto" } 
   
 \vspace{2 mm}
 \noindent (1) IRAP, Université Toulouse III - Paul Sabatier, CNRS, CNES, Toulouse, France; (2) IRAP, Université Toulouse III - Paul Sabatier, CNRS, CNES, Toulouse, France; (3) IRAP, Université Toulouse III - Paul Sabatier, CNRS, CNES, Toulouse, France; (4) John Hopkins APL, Laurel, USA; (5) Naval Research Laboratory, Washington DC, USA; (6) IRAP, Université Toulouse III - Paul Sabatier, CNRS, CNES, Toulouse, France\\
@@ -534,5 +574,8 @@ Global MHD models of the corona and solar wind are a key tool of the analysis of
 
  
 
+  
+% Print the authors index at the end of the booklet
+\printindex
 
 \end{document}
