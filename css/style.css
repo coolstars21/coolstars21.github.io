@@ -8,9 +8,9 @@ h1 {margin: 0;font-weight:400;}
 canvas{display: inline-block;}
 a {color: #c95c50;text-decoration: none;}
 a:hover,a:focus {color: #c95c50;text-decoration: underline;outline: none;}
-p {margin-bottom: 30px; margin-top: 10px; text-align: justify;text-justify: inter-word;}
+p {margin-bottom: 20px; margin-top: 10px; text-align: justify;text-justify: inter-word;}
 ol {margin-left: 20px;margin-bottom: 20px;}
-ul,ol {margin-top: 0;margin-bottom: 20px;}
+ul,ol {margin-top: 5px;margin-bottom: 20px; text-align: justify;text-justify: inter-word;}
 ul ul,ol ul,ul ol,ol ol {margin-bottom: 0;}
 
 
