@@ -1,0 +1,20 @@
+\contentsline {chapter}{Connection to Internet}{iv}{chapter*.1}% 
+\contentsline {chapter}{Foreword}{v}{chapter*.1}% 
+\contentsline {chapter}{Code of Conduct \& Contact Information}{vi}{chapter*.1}% 
+\contentsline {chapter}{Maps}{vii}{chapter*.1}% 
+\contentsline {chapter}{Conference Schedule}{viii}{chapter*.1}% 
+\contentsline {chapter}{Instructions for the Conference Proceedings}{ix}{chapter*.1}% 
+\contentsline {chapter}{Talks}{1}{chapter*.2}% 
+\contentsline {section}{Intermittent planet migration and the formation of multiple dust rings in protoplanetary disks \newline (Gaylor Wafflard-Fernandez)}{1}{section*.3}% 
+\contentsline {section}{Dust traps in the protoplanetary disc MWC 758: two vortices produced by two giant planets? \newline (Cl\IeC {\'e}ment Baruteau)}{1}{section*.4}% 
+\contentsline {section}{Migrating super-Earths in low-viscosity discs: unveiling the roles of feedback, vortices, and laminar accretion flows \newline (Colin P. McNally)}{2}{section*.5}% 
+\contentsline {section}{Dispersal of protoplanetary disks by the combination of magnetically driven and photoevaporative winds \newline (M. Kunitomo)}{2}{section*.6}% 
+\contentsline {section}{Magnetic field of Betelgeuse during its supernova phase \newline (Pascal Petit)}{3}{section*.7}% 
+\contentsline {section}{La transhumance des truites \newline (S\IeC {\'e}bastien Deheuvels)}{3}{section*.8}% 
+\contentsline {section}{Effects of stellar winds on the perfomance of profesional basketball players \newline (Florian Debras)}{3}{section*.9}% 
+\contentsline {section}{What can we learn from global MHD modeling of PSP encounters? \newline (Victor R\IeC {\'e}ville)}{3}{section*.10}% 
+\contentsline {chapter}{Posters}{5}{chapter*.11}% 
+\contentsline {section}{A signature of planetary migration: the origin of the $2:1$ mean-motion resonance \newline (R. Murray-Clay)}{5}{section*.12}% 
+\contentsline {section}{Cold dust emission from large-scale vortices induced by gap-opening planets \newline (Cl\IeC {\'e}ment Baruteau)}{5}{section*.13}% 
+\contentsline {section}{The forming slow solar wind imaged along streamer rays by the wide-angle imager on Parker Solar Probe \newline (Nicolas Poirier)}{6}{section*.14}% 
+\contentsline {chapter}{Authors index}{7}{section*.15}% 
