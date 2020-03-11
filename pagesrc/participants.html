@@ -1,0 +1,20 @@
+{% extends "templates/basic.html" %}
+{% import "templates/abstracts_helper.html" as abstracts %}
+{% set active_page = "Participants" %}
+
+{% block content %}
+
+<div class="container clearfix mt-100 mb-20">
+  {% include "templates/globalmessage.html" ignore missing %}
+
+  <h2><span>Participants</span></h2>
+    <div class="c12 row">
+  
+      <p>The list of registered participants updated in real time is available <a
+	href="http://cs21.inviteo.fr/index.php?onglet=1">here</a>.</p>
+
+      </div>
+
+      </div>
+      
+{% endblock content %}
