@@ -1,10 +1,34 @@
 This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
 Scanning style file ./abstractbook-long.mst........done (8 attributes redefined, 0 ignored).
-Scanning input file abstractbook-long.idx....done (41 entries accepted, 0 rejected).
-Sorting entries....done (222 comparisons).
+Scanning input file abstractbook-long.idx.....done (1928 entries accepted, 0 rejected).
+Sorting entries....................done (24769 comparisons).
 Generating output file abstractbook-long.ind....
-## Warning (input = abstractbook-long.idx, line = 2; output = abstractbook-long.ind, line = 10):
+## Warning (input = abstractbook-long.idx, line = 665; output = abstractbook-long.ind, line = 5):
    -- Conflicting entries: multiple encaps for the same page under same key.
-done (100 lines written, 1 warning).
+
+## Warning (input = abstractbook-long.idx, line = 1613; output = abstractbook-long.ind, line = 149):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = abstractbook-long.idx, line = 936; output = abstractbook-long.ind, line = 364):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+.
+## Warning (input = abstractbook-long.idx, line = 465; output = abstractbook-long.ind, line = 815):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = abstractbook-long.idx, line = 1012; output = abstractbook-long.ind, line = 912):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = abstractbook-long.idx, line = 1618; output = abstractbook-long.ind, line = 947):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = abstractbook-long.idx, line = 849; output = abstractbook-long.ind, line = 996):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = abstractbook-long.idx, line = 1032; output = abstractbook-long.ind, line = 1280):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = abstractbook-long.idx, line = 458; output = abstractbook-long.ind, line = 1479):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+done (1508 lines written, 9 warnings).
 Output written in abstractbook-long.ind.
 Transcript written in abstractbook-long.ilg.

@@ -1,20 +1,373 @@
-\contentsline {chapter}{Connection to Internet}{iv}{chapter*.1}% 
-\contentsline {chapter}{Foreword}{v}{chapter*.1}% 
-\contentsline {chapter}{Code of Conduct \& Contact Information}{vi}{chapter*.1}% 
-\contentsline {chapter}{Maps}{vii}{chapter*.1}% 
-\contentsline {chapter}{Conference Schedule}{viii}{chapter*.1}% 
-\contentsline {chapter}{Instructions for the Conference Proceedings}{ix}{chapter*.1}% 
+\contentsline {chapter}{Connection to Internet}{xx}{chapter*.1}% 
+\contentsline {chapter}{Foreword}{xxi}{chapter*.1}% 
+\contentsline {chapter}{Code of Conduct \& Contact Information}{xxii}{chapter*.1}% 
+\contentsline {chapter}{Maps}{xxiii}{chapter*.1}% 
+\contentsline {chapter}{Conference Schedule}{xxiv}{chapter*.1}% 
+\contentsline {chapter}{Instructions for the Conference Proceedings}{xxv}{chapter*.1}% 
 \contentsline {chapter}{Talks}{1}{chapter*.2}% 
-\contentsline {section}{Intermittent planet migration and the formation of multiple dust rings in protoplanetary disks \newline (Gaylor Wafflard-Fernandez)}{1}{section*.3}% 
-\contentsline {section}{Dust traps in the protoplanetary disc MWC 758: two vortices produced by two giant planets? \newline (Cl\IeC {\'e}ment Baruteau)}{1}{section*.4}% 
-\contentsline {section}{Migrating super-Earths in low-viscosity discs: unveiling the roles of feedback, vortices, and laminar accretion flows \newline (Colin P. McNally)}{2}{section*.5}% 
-\contentsline {section}{Dispersal of protoplanetary disks by the combination of magnetically driven and photoevaporative winds \newline (M. Kunitomo)}{2}{section*.6}% 
-\contentsline {section}{Magnetic field of Betelgeuse during its supernova phase \newline (Pascal Petit)}{3}{section*.7}% 
-\contentsline {section}{La transhumance des truites \newline (S\IeC {\'e}bastien Deheuvels)}{3}{section*.8}% 
-\contentsline {section}{Effects of stellar winds on the perfomance of profesional basketball players \newline (Florian Debras)}{3}{section*.9}% 
-\contentsline {section}{What can we learn from global MHD modeling of PSP encounters? \newline (Victor R\IeC {\'e}ville)}{3}{section*.10}% 
-\contentsline {chapter}{Posters}{5}{chapter*.11}% 
-\contentsline {section}{A signature of planetary migration: the origin of the $2:1$ mean-motion resonance \newline (R. Murray-Clay)}{5}{section*.12}% 
-\contentsline {section}{Cold dust emission from large-scale vortices induced by gap-opening planets \newline (Cl\IeC {\'e}ment Baruteau)}{5}{section*.13}% 
-\contentsline {section}{The forming slow solar wind imaged along streamer rays by the wide-angle imager on Parker Solar Probe \newline (Nicolas Poirier)}{6}{section*.14}% 
-\contentsline {chapter}{Authors index}{7}{section*.15}% 
+\contentsline {section}{The Missing Members of Nearby Young Associations \newline (Jonathan Gagn\IeC {\'e})}{1}{section*.3}% 
+\contentsline {section}{Spectroscopic Characterisation of 90 Southern Cool TESS Candidate Planet Hosts \newline (Adam D. Rains)}{1}{section*.4}% 
+\contentsline {section}{Magnetic field and activity is M giants - a long term study \newline (Renada Konstantinova-Antova)}{2}{section*.5}% 
+\contentsline {section}{The Evolution of Stellar Rotation \newline (Jamie Tayar)}{2}{section*.6}% 
+\contentsline {section}{Realistic Radiative MHD Modeling of Flare-productive Sunspots \newline (Shin Toriumi)}{2}{section*.7}% 
+\contentsline {section}{Differential rotation and meridional flows on the lower main sequence \newline (Manfred K\IeC {\"u}ker)}{3}{section*.8}% 
+\contentsline {section}{The solar wind angular momentum: what's new with Parker Solar Probe? \newline (Victor R\IeC {\'e}ville)}{3}{section*.9}% 
+\contentsline {section}{Can sub-photospheric magnetic reconnection change the elemental composition in the corona? \newline (Deborah Baker)}{3}{section*.10}% 
+\contentsline {section}{Unraveling the nature of ultra-fast rotators with ASTROSAT \newline (Lalitha Sairam)}{4}{section*.11}% 
+\contentsline {section}{Surface magnetic field effect on stellar limb darkening. \newline (N. M. Kostogryz)}{4}{section*.12}% 
+\contentsline {section}{The Sun is less active than other solar-like stars \newline (Timo Reinhold)}{5}{section*.13}% 
+\contentsline {section}{Magnetic field and accretion in the young eruptive star EX Lupi \newline (P\IeC {\'e}ter \IeC {\'A}brah\IeC {\'a}m)}{5}{section*.14}% 
+\contentsline {section}{The accretion process in the DQ Tau pre-main sequence binary system \newline (\IeC {\'A}gnes K\IeC {\'o}sp\IeC {\'a}l)}{6}{section*.15}% 
+\contentsline {section}{What have we learned about Milky Way's young substellar population? \newline (Koraljka Muzic)}{6}{section*.16}% 
+\contentsline {section}{Effect of metallicity on small-scale magnetic flux in Sun-like stars \newline (A. I. Shapiro)}{7}{section*.17}% 
+\contentsline {section}{Spitzer Mid-IR Monitoring of Young Giant Planet Analogs \newline (Jacqueline Faherty)}{7}{section*.18}% 
+\contentsline {section}{Global Solar Magnetic Variations using Spectroscopic Proxies and Excess Brightness Indices \newline (Ekaterina Dineva)}{8}{section*.19}% 
+\contentsline {section}{Disks and outflows of FUor-type stars observed with ALMA \newline (\IeC {\'A}gnes K\IeC {\'o}spal)}{8}{section*.20}% 
+\contentsline {section}{Magnetic Variability of Ultracool Dwarfs from TESS \newline (Sarah J. Schmidt)}{9}{section*.21}% 
+\contentsline {section}{Open Cluster Surveys Reveal a\IeC {\nobreakspace }Temporary Epoch of Stalled Spin-Down \newline (Jason Lee Curtis)}{9}{section*.22}% 
+\contentsline {section}{Tracking density variations in the Solar corona \newline (L\IeC {\'e}a Griton)}{10}{section*.23}% 
+\contentsline {section}{Modelling the link between UV emission and stellar magnetic activity \newline (Sowmya Krishnamurthy)}{10}{section*.24}% 
+\contentsline {section}{Investigating the Atmospheric Compositions of Ultra-Cool Brown Dwarfs Using High Resolution Spectroscopy \newline (Nicole Wallack)}{11}{section*.25}% 
+\contentsline {section}{Activity-related Oscillation Mode Frequency Shifts from the Main Sequence to the AGB - Theory, Measurement, Implications \newline (Ren\IeC {\'e} Kiefer)}{11}{section*.26}% 
+\contentsline {section}{Surface magnetic field effect on stellar limb darkening. \newline (N. M. Kostogryz)}{12}{section*.27}% 
+\contentsline {section}{Probing fossil magnetism effects in the core of evolved low-mass stars using mixed-mode frequencies \newline (Lisa Bugnet)}{12}{section*.28}% 
+\contentsline {section}{Complex Structure of a Proto-Brown Dwarf \newline (B. Riaz)}{13}{section*.29}% 
+\contentsline {section}{The chemical composition of stars and their rotational evolution \newline (Louis Amard)}{14}{section*.30}% 
+\contentsline {section}{Are the rotation period distributions in zero-age main sequence open clusters alike? \newline (Dario J. Fritzewski)}{14}{section*.31}% 
+\contentsline {section}{The first 10 Gyr evolution of 'failed stars' as transitional and degenerate brown dwarfs \newline (ZengHua Zhang)}{15}{section*.32}% 
+\contentsline {section}{Accretion and outflow activity in Class 0/I proto-brown dwarfs \newline (B. Riaz)}{15}{section*.33}% 
+\contentsline {section}{How underestimated are Zeeman-doppler imaging based torque estimates? \newline (Victor See)}{16}{section*.34}% 
+\contentsline {section}{Mapping the Accretion and Inner-Disk of Pre-Main-Sequence Stars with Emission Line Tomography \newline (Justyn Campbell-White)}{16}{section*.35}% 
+\contentsline {section}{Investigation in the long-term variations of the stellar activity indicators and their effect on radial velocity \newline (Jean Costes)}{17}{section*.36}% 
+\contentsline {section}{Stellar wind torques in T Tauri stars: how to prevent spin-up? \newline (George Pantolmos)}{17}{section*.37}% 
+\contentsline {section}{Effects of the winds of host stars on the escaping atmospheres of close-in planets \newline (Aline Vidotto)}{18}{section*.38}% 
+\contentsline {section}{Constraining the M dwarf age-activity relationship across the age of the Galaxy \newline (Elena Gonz\IeC {\'a}lez Egea)}{18}{section*.39}% 
+\contentsline {section}{Forward modelling of stellar variability for active planet hosting stars \newline (Luke J. Johnson)}{18}{section*.40}% 
+\contentsline {section}{First Results from a New Multi-Wavelength Observing Campaign of Proxima Centauri \newline (Meredith MacGregor)}{19}{section*.41}% 
+\contentsline {section}{The Chromosphere of Fainting Betelgeuse \newline (Andrea Dupree)}{20}{section*.42}% 
+\contentsline {section}{Ages for Red Giant Stars Associated with Thick Disk and Stellar Halo Substructures \newline (Samuel Grunblatt)}{20}{section*.43}% 
+\contentsline {section}{Exploring the solar paradigm to understand stellar variabilities \newline (Nina-Elisabeth Nemec)}{20}{section*.44}% 
+\contentsline {section}{How can we detect solar-like magnetic cycles with the Zeeman-Doppler-Imaging (ZDI) technique? \newline (Lisa T. Lehmann)}{21}{section*.45}% 
+\contentsline {section}{From the Inner to Outer Milky Way: A Pristine Sample of 4.3 Million Red Clump Stars \newline (Madeline Lucey)}{22}{section*.46}% 
+\contentsline {section}{The IGRINS YSO Survey: Stellar parameters of pre-main sequence stars in Taurus-Auriga \newline (Ricardo L\IeC {\'o}pez Valdivia)}{22}{section*.47}% 
+\contentsline {section}{Legacy catalog of surface rotation, photometric activity, and active-region (lower-limit) lifetimes of solar-type stars observed by Kepler \newline (A. R. G. Santos)}{22}{section*.48}% 
+\contentsline {section}{Studying the atmosphere of the close binary star system AADor with simulation code phoenix/1D \newline (Fiona Prod\IeC {\"o}hl)}{23}{section*.49}% 
+\contentsline {section}{Coronal Dimming as a Proxy for Stellar Coronal Mass Ejections \newline (Meng Jin)}{24}{section*.50}% 
+\contentsline {section}{Young and Active: Mass and Obliquity Constraint of the Neptune-sized Planet K2-25b \newline (HPF Team)}{24}{section*.51}% 
+\contentsline {section}{Yellow straggler stars and spectroscopic age indicators in the young stellar association AB\tmspace +\thinmuskip {.1667em}Doradus \newline (Leandro O. Kerber)}{25}{section*.52}% 
+\contentsline {section}{3D MHD Simulations of Accretion onto Magnetized Young Stars \newline (Shinsuke Takasao)}{25}{section*.53}% 
+\contentsline {section}{Large Adaptive optics Survey for Substellar Objects (LASSO) \newline (Maissa Salama)}{26}{section*.54}% 
+\contentsline {section}{The dissolution of star clusters and the formation of wide binaries \newline (Julio Chanam\IeC {\'e})}{26}{section*.55}% 
+\contentsline {section}{Magnetic Mapping of Young Suns: Comparing Codes \newline (Stephen Marsden)}{27}{section*.56}% 
+\contentsline {section}{Multi-wavelength space weather monitoring of Proxima Centauri \newline (Tara Murphy)}{27}{section*.57}% 
+\contentsline {section}{The variable nature of the chromosphere and transition region of the M dwarf GJ 436 \newline (Leonardo A. dos Santos)}{28}{section*.58}% 
+\contentsline {section}{Tidal evolution of short-period planetary systems along the evolution of differentially rotating magnetic low-mass stars \newline (Aur\IeC {\'e}lie Astoul)}{28}{section*.59}% 
+\contentsline {section}{Numerical simulations of convective core boundary mixing in low and intermediate mass stars. \newline (Isabelle Baraffe)}{29}{section*.60}% 
+\contentsline {section}{The K Dwarf Advantage: Assessing the Habitability of Planets Orbiting K Stars \newline (Tyler Richey-Yowell)}{29}{section*.61}% 
+\contentsline {section}{X-ray and EUV Exoplanet Transits \newline (Drake, J. J.)}{30}{section*.62}% 
+\contentsline {section}{K2-136c: The Smallest Open Cluster Planet Mass Ever Measured \newline (Andrew Mayo)}{30}{section*.63}% 
+\contentsline {section}{Possible scenarios of Li enhancement in giant stars observed in 17 open clusters \newline (M. Tsantaki)}{31}{section*.64}% 
+\contentsline {section}{Kernel-Phase Interferometry for Super-Resolution Detection of Faint Companions \newline (Adam L. Kraus)}{31}{section*.65}% 
+\contentsline {section}{Activity and rotation of a primary CoRoT target HD43587 \newline (Rafael Ferreira)}{32}{section*.66}% 
+\contentsline {section}{A polarimetric direct detection of a circumplanetary disk around CT Cha b \newline (Tobias O. B. Schmidt)}{32}{section*.67}% 
+\contentsline {section}{The bipolar molecular outflow of the very low-mass star Par-Lup3-4 \newline (Itziar de Gregorio-Monsalvo)}{33}{section*.68}% 
+\contentsline {section}{The NGTS clusters survey: understanding the early evolution of stellar and planetary systems \newline (Edward Gillen)}{33}{section*.69}% 
+\contentsline {section}{Simultaneous Multi-wavelength Observation of Flares on a Flaring M dwarf: EV Lacertae \newline (Rishi R. Paudel)}{34}{section*.70}% 
+\contentsline {section}{Modeling Solar Wind variation over an 11-yr cycle with Alfven Wave Dissipation: a parameter study \newline (Soumitra Hazra)}{34}{section*.71}% 
+\contentsline {section}{New Constraints on the Initial Mass Function and Birth History of Brown Dwarfs in the Solar Neighborhood from a Volume-Limited Sample \newline (William M. J. Best)}{35}{section*.72}% 
+\contentsline {section}{Modeling Solar Wind variation over an 11-yr cycle with Alfven Wave Dissipation: a parameter study \newline (Soumitra Hazra)}{35}{section*.73}% 
+\contentsline {section}{How should we characterize stellar photometric amplitudes? \newline (Derek Buzasi)}{36}{section*.74}% 
+\contentsline {section}{The Scorpius-Centaurus association and its kinematic ages with Chronostar \newline (Marusa Zerjal)}{36}{section*.75}% 
+\contentsline {section}{ How hot can flares from cool stars be? \newline (Hans Moritz G\IeC {\"u}nther)}{37}{section*.76}% 
+\contentsline {section}{Defining Benchmark M-Dwarf Age Properties from Gaia DR2 Clusters \newline (Ellianna Abrahams)}{37}{section*.77}% 
+\contentsline {section}{K. Isaak \newline (ESA CHEOPS Project Team and the Mission Consortium)}{37}{section*.78}% 
+\contentsline {section}{The EvryFlare survey: habitability impacts and flare color evolution for a large sample of superflares observed simultaneously by Evryscope and TESS \newline (Ward S. Howard)}{38}{section*.79}% 
+\contentsline {section}{Using Deep Learning to Characterize Stellar Rotation from Light Curves \newline (Jennifer van Saders)}{39}{section*.80}% 
+\contentsline {section}{Physical properties of the nearby population across the hydrogen-burning limit \newline (Daniella C. Bardalez Gagliuffi)}{39}{section*.81}% 
+\contentsline {section}{Multi-Epoch, High-Resolution Radial Velocities of the Volume-Complete Sample of 412 Mid-to-Late M Dwarfs Within 15 pc \newline (Jonathan Irwin)}{40}{section*.82}% 
+\contentsline {section}{Achieving High Contrast with Reference Star Differential Imaging using Star Hopping on SPHERE at 1.6 $\mu $m \newline (J. H. Girard)}{40}{section*.83}% 
+\contentsline {section}{Combining optical interferometry and Gaia uncertainness to reveal the physics of Asymptotic Giant Branch stars \newline (Andrea Chiavassa)}{41}{section*.84}% 
+\contentsline {section}{Magnetic topology of the pre-cataclysmic variable V471 Tau \newline (Bonnie Zaire)}{42}{section*.85}% 
+\contentsline {section}{Does the ratio of coronal to chromospheric heating change to cooler stars? \newline (Jeffrey L. Linsky)}{42}{section*.86}% 
+\contentsline {section}{The Directly-Measured Intrinsic Lyman-$\alpha $ Profiles of G, K, and M dwarfs \newline (Allison Youngblood)}{42}{section*.87}% 
+\contentsline {section}{Amplification of photometric variability by active-region nesting in solar-like stars \newline (Emre Isik)}{43}{section*.88}% 
+\contentsline {section}{Detectability of solar gravity modes generated by penetrative convection \newline (Charly Pin\IeC {\c c}on)}{43}{section*.89}% 
+\contentsline {section}{A Transiting Planet Discovered around a Nearby Pre-Main Sequence Star \newline (Peter Plavchan)}{44}{section*.90}% 
+\contentsline {section}{Correcting Solar and Stellar Flare Distributions \newline (Vinay L. Kashyap)}{46}{section*.91}% 
+\contentsline {section}{The enigmatic nature of stellar magnetic cycles \newline (Sandra Jeffers)}{47}{section*.92}% 
+\contentsline {section}{Disentangling Stellar Activity in an Era of High-Resolution Spectroscopy \newline (John M. Brewer)}{47}{section*.93}% 
+\contentsline {section}{Open Clusters orbits using radial velocities and new ages from Gaia DR2. \newline (Laia Casamiquela)}{48}{section*.94}% 
+\contentsline {section}{Center-to-limb variation of intensity perturbations caused by solar acoustic oscillations \newline (Nadiia Kostogryz)}{48}{section*.95}% 
+\contentsline {section}{Binary Evolution in the Gaia Era \newline (Emily Leiner)}{48}{section*.96}% 
+\contentsline {section}{Search for associations containing young stars (SACY): An updated census of spectroscopic binary systems in the young associations using rotational broadening and high-order cross-correlation features. \newline (S. Z\IeC {\'u}\IeC {\~n}iga-Fern\IeC {\'a}ndez)}{49}{section*.97}% 
+\contentsline {section}{Rotation-Activity Correlations in M-dwarf Far Ultraviolet Emissions from FUMES \newline (J. Sebastian Pineda)}{49}{section*.98}% 
+\contentsline {section}{Exploring persistent Doppler signals in rapidly-rotating M dwarfs \newline (Paul Robertson)}{50}{section*.99}% 
+\contentsline {section}{Pre-main sequence stars in the time domain: insights from CoRoT and Kepler/K2 \newline (L. Venuti)}{50}{section*.100}% 
+\contentsline {section}{A Stellar Age Dependence of the Planet Radius Valley \newline (Travis A. Berger)}{51}{section*.101}% 
+\contentsline {section}{A circular polarisation survey for radio stars with ASKAP \newline (Joshua Pritchard)}{51}{section*.102}% 
+\contentsline {section}{High-resolution spectroscopic parameters of M dwarfs \newline (Terese Olander)}{52}{section*.103}% 
+\contentsline {section}{Decrypting brightness variations of Sun-like stars with the solar code \newline (Alexander I. Shapiro)}{52}{section*.104}% 
+\contentsline {section}{Detecting stellar flares from weak-lined T Tauri stars using the Low-Frequency Array (LOFAR) \newline (A. Feeney-Johansson)}{53}{section*.105}% 
+\contentsline {section}{Calibrating gyrochronology using Galactic kinematics \newline (Ruth Angus)}{53}{section*.106}% 
+\contentsline {section}{XUV Emission, Winds and Superflares from Young Solar Analogs: Implications for the rise of biogenic conditions in the Solar System and exoplanetary systems \newline (Meng Jin)}{54}{section*.107}% 
+\contentsline {section}{Stellar mapping: A Bayesian perspective \newline (Rodrigo Luger)}{54}{section*.108}% 
+\contentsline {section}{Migration of chemical elements inside stars \newline (Ekaterina Semenova)}{55}{section*.109}% 
+\contentsline {section}{New Results From the Atmospheres of Transiting Brown Dwarfs \newline (Thomas Beatty)}{55}{section*.110}% 
+\contentsline {section}{PBjam: do-it-yourself asteroseismology \newline (Martin Nielsen)}{56}{section*.111}% 
+\contentsline {section}{Towards stellar CME observations: Blue asymmetries of Balmer lines during M-dwarf flares investigated with recent multi-wavelength campaign observations \newline (Yuta Notsu)}{56}{section*.112}% 
+\contentsline {section}{A Statistical Analysis of Flare Rates Across M Dwarf Parameter Space \newline (Emily Gilbert)}{57}{section*.113}% 
+\contentsline {section}{Rotation measurements for Eclipsing Binaries \newline (A. C. Mattiuci F.)}{57}{section*.114}% 
+\contentsline {section}{High resolution spectroscopy of ultracool dwarfs \newline (Michael Gully-Santiago)}{58}{section*.115}% 
+\contentsline {section}{Confirming the eccentric nature of Kepler 448c using TTV from TESS \newline (Leandro de Almeida)}{58}{section*.116}% 
+\contentsline {section}{APOKASC-3: Asteroseismology and Rotation in Evolved Cool Stars \newline (Marc H. Pinsonneault)}{59}{section*.117}% 
+\contentsline {section}{The TESS M-dwarf opportunity \newline (Karen Collins)}{59}{section*.118}% 
+\contentsline {section}{Characterising the 16 Cygni system via the WhoSGlAd method \newline (Martin Farnir)}{60}{section*.119}% 
+\contentsline {section}{Evidence of atomic diffusion in the NGC2420 cluster? \newline (Morgan Deal)}{60}{section*.120}% 
+\contentsline {section}{From old metal-poor to young metal-rich cool stars: exploring the parameter space with high-resolution NIR spectroscopy \newline (Cristiano Fanelli)}{61}{section*.121}% 
+\contentsline {section}{Chemical comparison between LMC and Sgr through high-resolution spectroscopy of red giant stars \newline (Alice Minelli)}{61}{section*.122}% 
+\contentsline {section}{UV Spectroscopy of T Tauri Stars with ULLYSES \newline (Will Fischer)}{62}{section*.123}% 
+\contentsline {section}{Modelling cool star astrospheres \newline (Konstantin Herbst)}{62}{section*.124}% 
+\contentsline {section}{GIARPS High-resolution Observations of T Tauri stars (GHOsT): connecting atomic and molecular winds in protoplanetary disks. \newline (M. Gangi)}{62}{section*.125}% 
+\contentsline {section}{The great dimming of Betelgeuse in 2019-2020 \newline (M. Montarg\IeC {\`e}s)}{63}{section*.126}% 
+\contentsline {section}{Lithium 7 depletion and angular momentum transport in rotating solar-like stars \newline (Thibaut Dumont)}{63}{section*.127}% 
+\contentsline {section}{ODUSSEAS: A machine learning tool to derive effective temperature and metallicity for M dwarf stars \newline (Alexandros Antoniadis-Karnavas)}{64}{section*.128}% 
+\contentsline {section}{Understanding the correlation between Radial Velocity jitter and photometric variability based on TESS and HARPS observations. \newline (S. Hojjatpanah)}{64}{section*.129}% 
+\contentsline {section}{Two Faces of the Solar Dynamo: Competing Magnetic Wreath Systems Revealed in Global Simulations \newline (Loren Matilsky)}{65}{section*.130}% 
+\contentsline {section}{CRIRES+: enabling high-resolution near-infrared spectroscopy and spectropolarimetry at the 8-m Very Large Telescope \newline (Alexis Lavail)}{65}{section*.131}% 
+\contentsline {section}{Solar photosphere magnetization \newline (V\IeC {\'e}ronique Bommier)}{66}{section*.132}% 
+\contentsline {section}{Activity of cool giants: observing magnetic braking and revival in different phases of evolution \newline (Klaus-Peter Schr\IeC {\"o}der)}{66}{section*.133}% 
+\contentsline {section}{Modeling of two CoRoT solar analogues constrained by seismic and spectroscopic analysis \newline (M. Castro)}{67}{section*.134}% 
+\contentsline {section}{An ALMA Survey of Chemistry in Disks around Low-Mass M-Stars \newline (Jamila Pegues)}{67}{section*.135}% 
+\contentsline {section}{Surface Magnetic Flux Transport and Meridional Flows During Solar Activity Cycle 24 \newline (Xudong Sun)}{68}{section*.136}% 
+\contentsline {section}{Kinematic signatures of cluster formation by cool collapse \newline (Nicholas J. Wright)}{68}{section*.137}% 
+\contentsline {section}{Probing radiative levitation in A/F-type pulsators with gravito-inertial asteroseismology \newline (Joey Mombarg)}{69}{section*.138}% 
+\contentsline {section}{COSMIC-DANCE: A comprehensive census of nearby star forming regions \newline (N\IeC {\'u}ria Miret-Roig)}{69}{section*.139}% 
+\contentsline {section}{The Stellar Mid-life Crisis: Subcritical Magnetic Dynamos of Sun-like Stars Reconcile Solar-Stellar Activity Observations \newline (Dibyendu Nandy)}{69}{section*.140}% 
+\contentsline {section}{Activity and spin evolution of old main-sequence stars with asteroseismic ages \newline (Katja Poppenhaeger)}{70}{section*.141}% 
+\contentsline {section}{Spectral investigation of V565 Mon star \newline (Hasmik Andreasyan)}{70}{section*.142}% 
+\contentsline {section}{The fundamental parameters of stars from high-precision CHARA/SPICA interferometric measurements: a key to characterize the exoplanetary systems \newline (Nicolas Nardetto)}{71}{section*.143}% 
+\contentsline {section}{Precise calibration of surface brightness-colour relations for late-type stars based on interferometric measurements \newline (Anthony Salsi)}{71}{section*.144}% 
+\contentsline {section}{In the Trenches of the Solar-Stellar Connection: UV/X-ray Flux-Flux Correlations for Low-and Moderate-Activity Stars \newline (Thomas Ayres)}{72}{section*.145}% 
+\contentsline {section}{How can we find big baby planets around young, active stars? \newline (Alexis Heitzmann)}{72}{section*.146}% 
+\contentsline {section}{Disc tearing in a young T Tauri triple star system with misaligned disk/orbit planes \newline (Stefan Kraus)}{73}{section*.147}% 
+\contentsline {section}{Predicting Long Rotation Periods of TESS Stars with 27-day light curves Using Random Forest \newline (Yuxi)}{73}{section*.148}% 
+\contentsline {section}{Hidden magnetic fields of young suns \newline (O. Kochukhov)}{74}{section*.149}% 
+\contentsline {section}{Ultraviolet Observations of Exoplanet Host Stars: Recent Results and the Landscape for the Next Two Decades \newline (Kevin France)}{74}{section*.150}% 
+\contentsline {section}{Most, but not all nearby, young G- and K-stars belong to known moving groups \newline (Alex Binks)}{75}{section*.151}% 
+\contentsline {section}{The Sun: past, present, and near future in the context of integral theory \newline (Elena A. Kadyshevich)}{75}{section*.152}% 
+\contentsline {section}{Spectral library of age-benchmark low-mass stars and brown dwarfs \newline (N. Lodieu)}{76}{section*.153}% 
+\contentsline {section}{Using Machine Learning to Uncover the Relationship between Spots and Flares \newline (Adina D. Feinstein)}{76}{section*.154}% 
+\contentsline {section}{A New Understanding of Magnetic Stellar Evolution \newline (Travis Metcalfe)}{77}{section*.155}% 
+\contentsline {section}{A 5D map of the nearest open clusters from high-mass stars down to the substellar regime \newline (Nicolas Lodieu)}{77}{section*.156}% 
+\contentsline {section}{Gravitational Waves for Measuring Hubble\IeC {\textquoteright }s Constant in the Accelerating Universe \newline (Rajesh Kumar Dubey)}{78}{section*.157}% 
+\contentsline {section}{Spatially resolved stellar disks at hyper-high spectral resolution: Toward Earth-like exoplanet detection \newline (Dainis Dravins)}{78}{section*.158}% 
+\contentsline {section}{Characterizing Differential Rotation with Tides in Eclipsing Binaries \newline (Adam S. Jermyn)}{79}{section*.159}% 
+\contentsline {section}{Superflares and Variability in Solar-Type Stars with TESS \newline (Lauren Doyle)}{79}{section*.160}% 
+\contentsline {section}{The Sun as a young star: reproducing the X-ray cycle of $\epsilon $ Eridani with solar magnetic structures \newline (M. Coffaro)}{80}{section*.161}% 
+\contentsline {section}{Measuring Stellar Rotation in the K2 Sample \newline (Tyler Gordon)}{80}{section*.162}% 
+\contentsline {section}{The Evolution of Solar Angular Momentum Loss and its Connection to Other Sun-like Stars \newline (Adam J. Finley)}{81}{section*.163}% 
+\contentsline {section}{Deep mixing due to convective penetration during the red giant branch luminosity bump \newline (Jane Pratt)}{81}{section*.164}% 
+\contentsline {section}{Star formation and disks evolution in clusters: The road to Westerlund 1 \newline (Mario Giuseppe Guarcello)}{82}{section*.165}% 
+\contentsline {section}{The SPECULOOS search for rocky planets orbiting ultra-cool dwarfs, and its first discovery \newline (Amaury Triaud)}{83}{section*.166}% 
+\contentsline {section}{Constraining Formation Mechanisms of Lithium-Rich Red Giants \newline (Benjamin T. Montet)}{83}{section*.167}% 
+\contentsline {section}{The X-ray activity-rotation-age relation of M dwarfs \newline (Enza Magaudda)}{83}{section*.168}% 
+\contentsline {section}{Rapid Spectroscopic Classification of Keck HIRES Stars with The Cannon \newline (Malena Rice)}{84}{section*.169}% 
+\contentsline {section}{ The Effects of Convective Assumptions on Fundamental Stellar Parameters \newline (Meridith Joyce)}{84}{section*.170}% 
+\contentsline {section}{The loci of megaflares on the surfaces of fully convective stars \newline (Ekaterina Ilin)}{85}{section*.171}% 
+\contentsline {section}{The magnetic obliquity of accreting T Tauri stars \newline (Pauline McGinnis)}{86}{section*.172}% 
+\contentsline {section}{Investigating episodic accretion in very low-mass young stellar objects \newline (Camille Stock)}{86}{section*.173}% 
+\contentsline {section}{Simulating the Deep Origins of M-Dwarf Super-Flares \newline (Connor P. Bice)}{87}{section*.174}% 
+\contentsline {section}{Modeling Luminosity-Activity Relations in Unsaturated Cool Stars \newline (Alison Farrish)}{87}{section*.175}% 
+\contentsline {section}{ The Influence of sun-like magnetic cycle on exoplanetary atmospheric escape \newline (Gopal Hazra)}{87}{section*.176}% 
+\contentsline {section}{HAZMAT's Spectroscopic Perspective on the Ultraviolet Lives of Early M Stars \newline (Evgenya Shkolnik)}{88}{section*.177}% 
+\contentsline {section}{The Influence of Age and Mass on Ultracool Dwarf and Brown Dwarf Magnetism \newline (Melodie Kao)}{88}{section*.178}% 
+\contentsline {section}{Starspots and Magnetism in Young Stars \newline (Christian Flores)}{89}{section*.179}% 
+\contentsline {section}{Precise and accurate parameters of spotted stars in eclipsing binaries \newline (Krzysztof G. He\IeC {\l }miniak)}{89}{section*.180}% 
+\contentsline {section}{Flux Emergence/Decay on Stellar Surfaces Revealed by Kepler Data \newline (Kosuke Namekata)}{90}{section*.181}% 
+\contentsline {section}{PEPSIpol view of EK Draconis \newline (S. P. J\IeC {\"a}rvinen)}{90}{section*.182}% 
+\contentsline {section}{UV chemistry in the outflows of AGB stars \newline (Maryam Saberi)}{91}{section*.183}% 
+\contentsline {section}{The curious case of Betelgeuse \newline (Thomas Granzer)}{91}{section*.184}% 
+\contentsline {section}{Unbiased Effective Temperatures of Red Supergiants from Iron Absorption Lines \newline (Daisuke Taniguchi)}{91}{section*.185}% 
+\contentsline {section}{Explosive nucleosynthesis as the source of a distinct odd-even effect in the solar twin HIP 11915 \newline (Jhon Yana Galarza)}{92}{section*.186}% 
+\contentsline {section}{The Dynamo-Wind Feedback Loop: Characterizing how the solar wind varies along a dynamo cycle \newline (Allan Sacha Brun)}{92}{section*.187}% 
+\contentsline {section}{Moving beyond stellar activity limitations to detect other Earths: radial velocities and high-precision astrometry \newline (Nad\IeC {\`e}ge Meunier)}{93}{section*.188}% 
+\contentsline {section}{The innermost regions of protoplanetary disks seen by GRAVITY at VLTI \newline (Karine Perraut)}{93}{section*.189}% 
+\contentsline {section}{On the fate of an engulfed brown dwarf as a red giant companion \newline (Rafeel Riaz)}{94}{section*.190}% 
+\contentsline {section}{Rotation measurements for Eclipsing Binaries \newline (A. C. Mattiuci F., L. de Almeida, J. Bouvier, M Deleuil)}{94}{section*.191}% 
+\contentsline {section}{Eruptive events in active stars: Lessons from numerical simulations \newline (Juli\IeC {\'a}n D. Alvarado-G\IeC {\'o}mez)}{95}{section*.192}% 
+\contentsline {section}{The Origin of p-mode Asymmetry and Asymmetry Reversal in Solar-like Oscillators \newline (J. Philidet)}{96}{section*.193}% 
+\contentsline {section}{Unveiling hidden properties of stellar rotation in open clusters with Gaia \newline (Diego Godoy-Rivera)}{96}{section*.194}% 
+\contentsline {section}{Center-to-limb variation of intensity perturbations caused by solar acoustic oscillations \newline (Nadiia Kostogryz)}{97}{section*.195}% 
+\contentsline {section}{Spin-orbit angles and mass-radius-temperature measurements of M dwarfs in the era of TESS \newline (Vedad Kunovac Hod\IeC {\v z}i\IeC {\'c})}{97}{section*.196}% 
+\contentsline {section}{Untangling the Galaxy \newline (Marina Kounkel, Keving Covey)}{97}{section*.197}% 
+\contentsline {section}{The impact of stellar activity on orbiting planets \newline (Adriana Valio)}{98}{section*.198}% 
+\contentsline {section}{High Energy Phenomena around the Sun-like \& Cool Stars \newline (S. P. Moschou)}{98}{section*.199}% 
+\contentsline {section}{Lithium-rotation connection in the newly discovered young stellar stream Psc-Eri (Meingast 1) \newline (Javier Arancibia-Silva)}{99}{section*.200}% 
+\contentsline {section}{Going from Near to Far to the Extreme: Using Metastable Neutral Helium to Understand Cool Stars and their Exoplanets \newline (Teruyuki Hirano)}{99}{section*.201}% 
+\contentsline {section}{Stellar Flares and Habitable M-dwarf Worlds with TESS \newline (G\IeC {\"u}nther, M.)}{100}{section*.202}% 
+\contentsline {section}{Low-mass pre-main sequence stars and their disks: a story of the dawn of planets \newline (Carlo F. Manara)}{100}{section*.203}% 
+\contentsline {section}{Mapping the Progression of Star Formation in the Sco-Cen Association \newline (Ronan M. P. Kerr)}{100}{section*.204}% 
+\contentsline {section}{Radiative MHD Simulations of Starspots and their spectral synthesis \newline (Mayukh Panja)}{101}{section*.205}% 
+\contentsline {section}{Slingshot prominences as a mechanism for mass and angular momentum loss in young M-dwarfs \newline (Rose F.P. Waugh)}{101}{section*.206}% 
+\contentsline {section}{Understanding peculiar cool members to trace globular cluster hectic infancy \newline (Corinne Charbonnel)}{102}{section*.207}% 
+\contentsline {section}{Brown dwarfs in open clusters silver anniversary \newline (Eduardo L. Mart\IeC {\'\i }n)}{102}{section*.208}% 
+\contentsline {section}{New empirical relations on fundamental parameters from HK-band spectral indices of K--M giants \newline (D. K. Ojha)}{102}{section*.209}% 
+\contentsline {section}{Understanding and Modelling the Magnetic Cycles of Slowly Rotating Stars: Consequence of Anti-solar Differential Rotation \newline (Vindya Vashishth, Aparna Tomar, Suyog Garg)}{103}{section*.210}% 
+\contentsline {section}{Planetary engulfment as a possible explanation for unusually rapidly-rotating old main-sequence stars \newline (A.Oetjens)}{103}{section*.211}% 
+\contentsline {section}{The Wilson-Bappu effect revisited \newline (Faiber Rosas)}{104}{section*.212}% 
+\contentsline {section}{A Large-Scale Homogeneous Analysis of Substellar Model Atmospheres \newline (Zhoujian Zhang)}{104}{section*.213}% 
+\contentsline {section}{Revisiting the census of pre-main sequence stars in the Lupus star-forming region \newline (Phillip Galli)}{105}{section*.214}% 
+\contentsline {section}{A very long and hot X-ray superflare on an RS CVn type eclipsing binary SZ Psc \newline (Subhajeet Karmakar)}{105}{section*.215}% 
+\contentsline {section}{Small-scale dynamo in cool main-sequence stars \newline (Tanayveer S. Bhatia)}{106}{section*.216}% 
+\contentsline {section}{Contribution of active-region inflows to variations in the solar meridional flow \newline (Paul-Louis Poulier)}{107}{section*.217}% 
+\contentsline {section}{Common dynamo scaling in young and evolved stars \newline (Jyri J. Lehtinen)}{107}{section*.218}% 
+\contentsline {section}{Spatially resolving the inner regions of FU Ori: Revealing the temperature structure actively accreting disks \newline (Stefan Kraus)}{107}{section*.219}% 
+\contentsline {section}{Revisiting Proxima with ESPRESSO \newline (Su\IeC {\'a}rez Mascare\IeC {\~n}o Alejandro)}{108}{section*.220}% 
+\contentsline {section}{The dust sublimation rim of the disc of RY Tau: insights into the origin of its aperiodic photometric variability using near-infrared interferometry \newline (Claire L. Davies)}{108}{section*.221}% 
+\contentsline {section}{Shedding light on solar radial velocity variations \newline (Annelies Mortier)}{109}{section*.222}% 
+\contentsline {section}{Abundance analysis of individual elements for M dwarfs with high-resolution near-infrared spectroscopy \newline (Wako Aoki)}{110}{section*.223}% 
+\contentsline {section}{Revolutionising our understanding of Sun-like stars through extremely precise radial velocities \newline (H. M. Cegla)}{110}{section*.224}% 
+\contentsline {section}{Stellar coronal X-ray emission and surface magnetic flux \newline (Juxhin Zhuleku)}{110}{section*.225}% 
+\contentsline {section}{Stellar Rotation Rates As Seen By TESS \newline (Danielle Rowland)}{111}{section*.226}% 
+\contentsline {section}{The Galactic cosmic ray intensity at the evolving Earth and young exoplanets \newline (Donna Rodgers-Lee, Aline Vidotto, Andrew Taylor, Paul Rimmer, Turlough Downes)}{112}{section*.227}% 
+\contentsline {section}{What do Precision Light Curves Really tell us about Starspots? \newline (Gibor Basri)}{112}{section*.228}% 
+\contentsline {section}{The 6-Dimensional Structure of an Expanded Census of the Taurus Star Forming Region \newline (Daniel Krolikowski)}{112}{section*.229}% 
+\contentsline {section}{Fundamental Properties and Atmospheric Composition of Ultracool Dwarfs from Near- through Mid-infrared Spectrophotometr \newline (Genaro Suarez)}{113}{section*.230}% 
+\contentsline {section}{StePar/SteParSyn: two automatic codes to infer stellar atmospheric parameters \newline (H. M. Tabernero)}{113}{section*.231}% 
+\contentsline {section}{A Hierarchical Bayesian Framework for Predicting Stellar Radial Velocity Jitter \newline (Jacob K. Luhn)}{114}{section*.232}% 
+\contentsline {section}{The Demographics of Wide Planetary-Mass and Substellar Companions and Their Circum(sub)stellar Disks through PSF Fitting of Spitzer/IRAC Archival Images \newline (Raquel A. Martinez)}{114}{section*.233}% 
+\contentsline {section}{M dwarfs: from colours to luminosities \newline (C. Cifuentes)}{115}{section*.234}% 
+\contentsline {section}{The most energetic X-ray flares in the 2010s from the RS CVn type star GT Mus \newline (Yohko Tsuboi)}{115}{section*.235}% 
+\contentsline {chapter}{Posters}{117}{chapter*.236}% 
+\contentsline {section}{ Geomagnetically induced currents related to impulsive events at low latitudes. \newline (Nguessan Kouassi)}{117}{section*.237}% 
+\contentsline {section}{He I 10830 transit observations of the hot gas giant HAT-P-10 b \newline (P. Wilson Cauley)}{117}{section*.238}% 
+\contentsline {section}{Determination of Stellar Parameters of the TIGRE sample \newline (Ilse A. Aguilar Segoviano)}{117}{section*.239}% 
+\contentsline {section}{Stellar Motion Detector (SMDET) : a citizen science tool using neural networks in search of moving objects in WISE images cubes. \newline (Dan Caselden)}{118}{section*.240}% 
+\contentsline {section}{The role of flares and coronal-mass-ejections on the habitability of M-star planets. \newline (Eike W. Guenther)}{119}{section*.241}% 
+\contentsline {section}{Simultaneous magnetic field and radial velocity measurement via Least-Squares Deconvolution \newline (Florian Lienhard)}{119}{section*.242}% 
+\contentsline {section}{The importance of precise stellar parameters for determining the long-term habitability of exoplanets: Applications for direct imaging target selection \newline (Noah W. Tuchow)}{120}{section*.243}% 
+\contentsline {section}{Convective overshooting in hydrodynamic simulations of the F-type eclipsing binary BW Aquarii \newline (Jane Pratt)}{120}{section*.244}% 
+\contentsline {section}{New Constraints on M Dwarf Winds from the Hubble Space Telescope \newline (Brian E. Wood)}{120}{section*.245}% 
+\contentsline {section}{The Gaia binary star orbit revolution \newline (Logan A Pearce)}{121}{section*.246}% 
+\contentsline {section}{Radio eclipses of exoplanets by the winds of their host stars \newline (Robert D. Kavanagh)}{121}{section*.247}% 
+\contentsline {section}{Investigations of Flares in VB10 using high resolution infrared spectroscopy \newline (Shubham Kanodia)}{122}{section*.248}% 
+\contentsline {section}{Asterospheric Fields of Cool Stars and their Impact on Exoplanetary Environments \newline (David Alexander)}{122}{section*.249}% 
+\contentsline {section}{First results from POKEMON \newline (Catherine Clark)}{122}{section*.250}% 
+\contentsline {section}{Twinkle, twinkle, little star: unravelling the stellar atmospheric parameters of FGKM-type stars from CARMENES spectra \newline (Emilio Marfil)}{123}{section*.251}% 
+\contentsline {section}{Measuring the tidal interaction footprint on stellar magnetic activity in star-planet systems \newline (Nikoleta Ilic)}{124}{section*.252}% 
+\contentsline {section}{The loci of megaflares on the surfaces of fully convective stars \newline (Ekaterina Ilin)}{124}{section*.253}% 
+\contentsline {section}{Total lunar eclipse January 2019: observing the Earth as a transiting planet in Stokes IQUV \newline (K. G. Strassmeier)}{125}{section*.254}% 
+\contentsline {section}{Chromospheric modeling for CARMENES targets with PHOENIX \newline (Dominik Hintz)}{125}{section*.255}% 
+\contentsline {section}{Characterization of M Dwarfs via Sparse Approximation \newline (Yohei Koizumi)}{126}{section*.256}% 
+\contentsline {section}{Star Formation History of Sagittarius Dwarf Irregular Galaxy Through Long Period Variable Stars. \newline (Shahrzad Dehghani)}{126}{section*.257}% 
+\contentsline {section}{Investigating the Mineralogy of Clouds in Brown Dwarf Atmospheres \newline (Caroline Morley)}{127}{section*.258}% 
+\contentsline {section}{Updated constraints on the abundances of ultracool members of Omega Centauri and predictions for brown dwarfs using a new grid of model atmospheres and interiors \newline (Roman Gerasimov)}{127}{section*.259}% 
+\contentsline {section}{Dynamical age of the beta Pictoris moving group \newline (N\IeC {\'u}ria Miret-Roig)}{128}{section*.260}% 
+\contentsline {section}{Predicted Hydrogen Emissions from Accretion and Outflow in T Tauri Stars \newline (Tom J. G. Wilson)}{128}{section*.261}% 
+\contentsline {section}{Activity and spin evolution of old main-sequence stars with asteroseismic ages \newline (Katja Poppenhaeger)}{129}{section*.262}% 
+\contentsline {section}{Title: Optimizing TESS short cadence aperture for Asteroseismology of solar-like stars \newline (Luc\IeC {\'\i }a Gonz\IeC {\'a}lez-Cuesta)}{129}{section*.263}% 
+\contentsline {section}{Shapes of stellar activity cycles \newline (Teemu Willamo)}{130}{section*.264}% 
+\contentsline {section}{The Sun as a star as observed with ALMA \newline (Sneha Pandit)}{130}{section*.265}% 
+\contentsline {section}{Nonlinear Convergence of Solar-like Stars Chromospheres Using Millimeter, Submillimeter, and Infrared Observations \newline (Victor De la Luz)}{131}{section*.266}% 
+\contentsline {section}{The Role of Flare Morphology in Exoplanet Characterization \newline (Guadalupe Tovar Mendoza)}{131}{section*.267}% 
+\contentsline {section}{Albireo: a physical triple after all \newline (Missael Hernandez Huerta)}{131}{section*.268}% 
+\contentsline {section}{Magnetism in Betelgeuse: a high-resolution spectropolarimetric monitoring before and around its historic dimming \newline (Stefan Georgiev)}{132}{section*.269}% 
+\contentsline {section}{Kinematics, Multiplicity, and Angular Momentum Evolution of Ultracool Dwarfs through Forward-Modeling Analysis of Keck/NIRSPEC and SDSS/APOGEE High-Resolution Spectroscopy \newline (Chih-Chun "Dino" Hsu)}{132}{section*.270}% 
+\contentsline {section}{Simultaneous mulit-wavelength observations with HELLRIDE \newline (F. Tischer)}{133}{section*.271}% 
+\contentsline {section}{Stellar activity indicators of M dwarfs from SPIRou \newline (Pia Cortes-Zuleta)}{133}{section*.272}% 
+\contentsline {section}{Testing the accuracy and completeness of brown dwarf model atmospheres using high-dispersion spectroscopy \newline (Megan E. Tannock)}{133}{section*.273}% 
+\contentsline {section}{A Refined Set of Main Sequence Stellar Rotation Periods from Kepler \newline (Gibor Basri)}{134}{section*.274}% 
+\contentsline {section}{TESS lightcurves as new chronometer through solar twins \newline (Diego Lorenzo-Oliveira)}{134}{section*.275}% 
+\contentsline {section}{Periodicities, Rotation and Activity of Young Suns as seen by TESS \newline (Eduardo Nunes Velloso)}{135}{section*.276}% 
+\contentsline {section}{"Reading between the lines": How time- and velocity-resolved data can help us to map the tiniest scales in young forming stars \newline (Aurora Sicilia-Aguilar)}{135}{section*.277}% 
+\contentsline {section}{Binary orbit and spot modelling of UX Arietis for the interpretation of radio flares \newline (Christian Hummel)}{136}{section*.278}% 
+\contentsline {section}{Rotational velocities and braking strength in main sequence stars. \newline (Jefferson da Costa)}{136}{section*.279}% 
+\contentsline {section}{Contemporaneous Observations of H$\alpha $ and Photometric Amplitude for M dwarfs \newline (Aylin Garcia Soto)}{136}{section*.280}% 
+\contentsline {section}{Tidal synchronization and rotation of late-type binaries \newline (Jefferson da Costa)}{137}{section*.281}% 
+\contentsline {section}{Slingshot prominences as a mechanism for mass and angular momentum loss in young M-dwarfs \newline (Rose F.P. Waugh)}{137}{section*.282}% 
+\contentsline {section}{Simulations of solar-like stars at varying rotation rates: where do we stand in comparison to observations? \newline (M. Viviani)}{138}{section*.283}% 
+\contentsline {section}{How to Date a Cluster: Updated Ages of Nearby Stellar Clusters \newline (Mackenna L. Wood)}{139}{section*.284}% 
+\contentsline {section}{The Lowell Observatory Solar Telescope \newline (Joe Llama)}{139}{section*.285}% 
+\contentsline {section}{Regular and oscillatory motion of Coronal bright points \newline (Tamar Tsinamdzgvrishvili)}{140}{section*.286}% 
+\contentsline {section}{Mapping the Progression of Star Formation in the Sco-Cen Association \newline (Ronan M. P. Kerr)}{140}{section*.287}% 
+\contentsline {section}{Finding members in star-forming regions and open clusters: A machine learning approach. \newline (J. Olivares)}{141}{section*.288}% 
+\contentsline {section}{Magnetic field and chromospheric activity of the late-F star HD75332 \newline (Emma L. Brown)}{141}{section*.289}% 
+\contentsline {section}{Multi-wavelength observations of stellar flares on an active M dwarf AD Leonis with Seimei/OISTER \newline (K. Namekata)}{141}{section*.290}% 
+\contentsline {section}{Statistical analyses of superflares on Sun-like stars using all Kepler 4-year data \newline (Soshi Okamoto)}{142}{section*.291}% 
+\contentsline {section}{Star-disk interactions of the T Tauri star V2129 Oph: confronting optical and infrared spectroscopy \newline (A. Sousa)}{143}{section*.292}% 
+\contentsline {section}{Injecting Y dwarfs into Gaia DR2 using HST: a new method to measure parallaxes and proper motions for our coolest neighbours \newline (Cl\IeC {\'e}mence Fontanive)}{143}{section*.293}% 
+\contentsline {section}{Variability of veiling in DK Tau's spectra \newline (Marie Nelissen)}{144}{section*.294}% 
+\contentsline {section}{Wide Binary Star Systems and Ghost Star Clusters in the Kepler Field \newline (Kenneth Janes)}{144}{section*.295}% 
+\contentsline {section}{SEEJ: Smallsat Explorer of the Exospheres of Hot Jupiters \newline (Scott J. Wolk)}{145}{section*.296}% 
+\contentsline {section}{Stellar XUV radiation and the evolution of exoplanets \newline (Simon Joyce)}{145}{section*.297}% 
+\contentsline {section}{The chromospheric activity of M Dwarfs from visible and near-infrared CARMENES spectra: analysis of flux-flux relationships \newline (Fernando Labarga)}{145}{section*.298}% 
+\contentsline {section}{Using \textsc {{\relax \fontsize {12}{14}\selectfont PLATYPOS}} to estimate the atmospheric mass loss of V1298 Tau's four young planets \newline (Laura Ketzer)}{146}{section*.299}% 
+\contentsline {section}{Ruprecht 147 - The oldest nearby open cluster in the light of gyrochonology \newline (David Gruner: Sydney Barnes)}{147}{section*.300}% 
+\contentsline {section}{How underestimated are Zeeman-doppler imaging based torque estimates? \newline (Victor See)}{147}{section*.301}% 
+\contentsline {section}{New Rotation Activity Constraints on a survey of Mid-to-Late M-Dwarfs \newline (Thomas M. Boudreaux)}{147}{section*.302}% 
+\contentsline {section}{General trends in winds of M dwarfs and the case of the planet-hosting star GJ 436 \newline (Amanda L. Mesquita)}{148}{section*.303}% 
+\contentsline {section}{Magnetic braking of accreting T Tauri stars: Effects of rotation, disk density, and dipolar field strength \newline (Lewis G. Ireland)}{148}{section*.304}% 
+\contentsline {section}{Moderate Resolution Spectroscopy of Directly Imaged Planets \newline (Kielan K. Wilcomb)}{149}{section*.305}% 
+\contentsline {section}{Constraining stellar CMEs with optical spectroscopy \newline (Petra Odert)}{149}{section*.306}% 
+\contentsline {section}{The orbits of the speckle interferometric binaries. Problem systems. \newline (Arina Mitrofanova)}{150}{section*.307}% 
+\contentsline {section}{The orbits of the speckle interferometric binaries. Long-term monitoring at BTA SAO RAS. \newline (Anatoly Beskakotov)}{150}{section*.308}% 
+\contentsline {section}{On statistical properties of the solar coronal jets and their precursors \newline (Salome R. Bagashvili)}{151}{section*.309}% 
+\contentsline {section}{Determination of Fundamental Atmospheric Properties of M-Dwarfs \newline (Aishwarya Iyer)}{151}{section*.310}% 
+\contentsline {section}{Evolutionary models for ultracool dwarfs with CLES \newline (Catarina S. Fernandes)}{152}{section*.311}% 
+\contentsline {section}{Characterizing Pulsed Accretion Signatures In Young Star Systems \newline (Lauren Biddle)}{152}{section*.312}% 
+\contentsline {section}{Undiscovered spectroscopic binaries among bright cool stars \newline (D. Jack)}{152}{section*.313}% 
+\contentsline {section}{A search for CMEs on solar-like stars in archival data \newline (Martin Leitzinger)}{153}{section*.314}% 
+\contentsline {section}{M dwarf stellar characterization from Habitable Zone Planet Finder spectra \newline (R. Terrien)}{153}{section*.315}% 
+\contentsline {section}{Evolving Chromospheres of M Dwarfs \newline (K. G. Carpenter)}{154}{section*.316}% 
+\contentsline {section}{Studying the atmosphere of the close binary star system AADor with simulation code phoenix/1D \newline (Fiona Prod\IeC {\"o}hl)}{154}{section*.317}% 
+\contentsline {section}{Orbital Architectures of Stellar, Brown Dwarf, and Planetary Companions Around Nearby M Dwarfs \newline (Eliot Halley Vrijmoet)}{155}{section*.318}% 
+\contentsline {section}{Chemical Tagging As Told By Wide Binaries and Comoving Pairs: Promise and Limitations \newline (Julio Chanam\IeC {\'e})}{155}{section*.319}% 
+\contentsline {section}{Age-Activity relation for M dwarfs using H$_\alpha $ equivalent widths \newline (Rocio Kiman)}{156}{section*.320}% 
+\contentsline {section}{Lunar occultations in the spectrum at the 6-m telescope of the SAO RAS. Method and first resolved giants. \newline (V. Dyachenko)}{156}{section*.321}% 
+\contentsline {section}{Cool Stars and Planetary Systems Research at the University of Southern Queensland \newline (Brad Carter)}{157}{section*.322}% 
+\contentsline {section}{KIC 2852961 \IeC {\textendash } a superflaring red monster in the Kepler field \newline (Zsolt K\IeC {\H o}v\IeC {\'a}ri)}{157}{section*.323}% 
+\contentsline {section}{Tuning spin evolution models to cluster rotation data \newline (Sean Matt)}{157}{section*.324}% 
+\contentsline {section}{Li-rich giant stars under scrutiny \newline (Bernardo F. O. Gon\IeC {\c c}alves)}{158}{section*.325}% 
+\contentsline {section}{The violent environment of RCW38 and its impact on substellar formation efficiency \newline (Karolina Kubiak)}{158}{section*.326}% 
+\contentsline {section}{Dynamics of the Convective Turbulence in the Solar Convection Cells Studied by the Spectral Line Broadening and Asymmetry \newline (Ryohtaroh T. Ishikawa)}{159}{section*.327}% 
+\contentsline {section}{Discovery of a coordinated photospheric and X-ray activity cycle in the young Sun, $\iota $ Hor. \newline (Gaitee A.J. Hussain)}{159}{section*.328}% 
+\contentsline {section}{The Perilous Lives of Planets in Binary Star Systems \newline (Trent Dupuy)}{159}{section*.329}% 
+\contentsline {section}{Measuring stellar magnetic helicity density \newline (K. Lund)}{160}{section*.330}% 
+\contentsline {section}{Dynamo drivers measured in Suns of different ages \newline (J\IeC {\"o}rn Warnecke)}{161}{section*.331}% 
+\contentsline {section}{X-ray Emission in Cepheids due to Shock Waves \newline (S. P. Moschou)}{161}{section*.332}% 
+\contentsline {section}{Dynamical Masses of young visual binaries as test for pre-main-sequence evolutionary models \newline (Rainer K\IeC {\"o}hler)}{162}{section*.333}% 
+\contentsline {section}{Youth assessment in near infrared spectra of brown dwarfs and very low mass stars: a case study of NGC2244 \newline (V\IeC {\'\i }ctor Almendros-Abad)}{162}{section*.334}% 
+\contentsline {section}{High-Resolution Model Spectra for Cool Stars: the Good, the Bad, and the Ugly \newline (Yutong Shan)}{163}{section*.335}% 
+\contentsline {section}{MML 48: A new pre-main sequence eclipsing binary in a triple system \newline (Leslie Hebb)}{163}{section*.336}% 
+\contentsline {section}{Transiting, low-mass Companions to Kepler Objects of Interest \newline (Suvrath Mahadevan)}{163}{section*.337}% 
+\contentsline {section}{Probing variability in young low-mass stars with TESS and high resolution spectroscopy \newline (Gabriella Zsidi)}{164}{section*.338}% 
+\contentsline {section}{Search for wide substellar companions to Young Nearby Stars with VISTA Hemisphere Survey. \newline (Patricia Chinchilla)}{164}{section*.339}% 
+\contentsline {section}{The Extreme Ultraviolet Spectrum in Time: Modeling the Evolution of Early M dwarf Emission \newline (Sarah Peacock)}{165}{section*.340}% 
+\contentsline {section}{Near-Infrared Spectroscopic Monitoring of Low-Mass, Persistent Flux-Dipping Systems in Upper Sco \newline (Benjamin Tofflemire)}{165}{section*.341}% 
+\contentsline {section}{Fundamental properties for M-dwarfs in eclipsing binaries: the case for SB1 vs SB2 analyses \newline (Yilen G\IeC {\'o}mez Maqueo Chew)}{166}{section*.342}% 
+\contentsline {section}{Biases Introduced in Observed IMFs by Undetected Binary Systems \newline (Kendall Sullivan)}{166}{section*.343}% 
+\contentsline {section}{A deep learning approach to photospheric parameters of CARMENES target stars \newline (Vera Maria Passegger)}{167}{section*.344}% 
+\contentsline {section}{The young nearby quadruple system HD98800: Refining the orbit of HD98800 BaBb and first orbital solution for HD98800 AaAb using long baseline infrared interferometry \newline (S. Z\IeC {\'u}\IeC {\~n}iga-Fern\IeC {\'a}ndez)}{167}{section*.345}% 
+\contentsline {section}{Near infrared polarimeteric study of post-AGB stars \newline (Devaraj Rangaswamy)}{168}{section*.346}% 
+\contentsline {section}{SED fitting for pre-MS stars: Applications for an Age Spread and Starspots in Young Clusters \newline (Lyra Cao)}{168}{section*.347}% 
+\contentsline {section}{Measuring Differential Rotation with Stellar Surface Images \newline (Rachael M. Roettenbacher)}{168}{section*.348}% 
+\contentsline {section}{Spectroscopic information contained in the CARMENES VIS and NIR spectral ranges of FGKM stars \newline (David Montes)}{169}{section*.349}% 
+\contentsline {section}{Effects of Extra Mixing in Red Giant Branch Stars in M10 \newline (Jeffrey M. Gerber)}{169}{section*.350}% 
+\contentsline {section}{Probing the Low-Mass End of the Initial Mass Function with an HST DASH Survey of Massive Star-Forming Regions \newline (William M. J. Best)}{170}{section*.351}% 
+\contentsline {section}{Explosive nucleosynthesis as the source of a distinct odd-even effect in the solar twin HIP 11915 \newline (Jhon Yana Galarza)}{170}{section*.352}% 
+\contentsline {section}{Unveiling Brown Dwarf and White Dwarf Binary Candidates in the Solar Neighborhood \newline (Wei-Chun Jao)}{171}{section*.353}% 
+\contentsline {section}{The limb darkening on the detection of exoplanets and exomoons \newline (Gabriel Zuza Diniz)}{171}{section*.354}% 
+\contentsline {section}{Exploring the Rotational Evolution of M Dwarfs \newline (Mark Popinchalk)}{171}{section*.355}% 
+\contentsline {section}{CESTAM: Toward a stellar evolution code with angular momentum transport in 2\nobreakspace {}dimensions \newline (Louis Manchon)}{172}{section*.356}% 
+\contentsline {section}{Investigating the Galactic Distribution of UCDs in Deep Fields \newline (Christian Aganze)}{172}{section*.357}% 
+\contentsline {section}{The chromospheric activity of solar-like stars revisited \newline (Rafael Ferreira)}{173}{section*.358}% 
+\contentsline {section}{Probing the Radius-Magnetic Activity Connection for M0 to L2.5 Dwarfs \newline (Michele L. Silverstein)}{173}{section*.359}% 
+\contentsline {section}{Dynamical Masses of Young Stars \newline (Aaron C. Rizzuto)}{174}{section*.360}% 
+\contentsline {section}{Investigating the Galactic Distribution of UCDs in Deep Fields \newline (Christian Aganze)}{174}{section*.361}% 
+\contentsline {section}{Optical Spectroscopy of New Nearby Ultracool Dwarfs from Gaia DR2 and SDSS-LaTE-MoVeRS \newline (Adam Burgasser)}{175}{section*.362}% 
+\contentsline {section}{Sub-subgiant Starspot Analysis Through Spectral Decomposition \newline (Natalie M. Gosnell)}{175}{section*.363}% 
+\contentsline {section}{Rotation of solar analogs from the Kepler - Gaia cross-matching sample \newline (J.-D. do Nascimento, Jr.)}{175}{section*.364}% 
+\contentsline {section}{Life on a Pale Red Dot \newline (Elena Gonz\IeC {\'a}lez Egea)}{176}{section*.365}% 
+\contentsline {section}{Small-scale magnetism of main-sequence stellar atmospheres \newline (Oskar Steiner)}{176}{section*.366}% 
+\contentsline {section}{Radial Velocity Photon Limits for the Dwarf Stars of Spectral Classes F-M \newline (Ansgar Reiners)}{177}{section*.367}% 
+\contentsline {chapter}{Authors index}{179}{section*.368}% 
