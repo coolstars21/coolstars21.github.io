@@ -10,8 +10,20 @@
 ] -%}
 {% set active_page = active_page|default('About') -%}
 //-->
+<!--
 {% set navigation_bar = [
     ('index.html', 'Welcome'),
+    ('program.html', 'Program'),
+    ('splinters.html', 'Splinters'),
+    ('abstracts.html', 'Abstracts'),
+    ('registration.html', 'Registration'),
+    ('participants.html', 'Participants'),
+    ('travel.html', 'Venue'),
+] -%}
+//-->
+{% set navigation_bar = [
+    ('index.html', 'Welcome'),
+    ('travel.html', 'Venue'),
 ] -%}
 {% set active_page = active_page|default('Welcome') -%}
 
