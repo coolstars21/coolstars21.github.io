@@ -359,6 +359,17 @@
 	icon: icon
     }).addTo(map);
 
+    // Add feature related to banquet (Jolimont picnic)
+    icon = L.divIcon({
+	className: 'custom-div-icon',
+	html: "<div style='background-color:green;' class='marker-pin'></div><i class='material-icons'>restaurant</i>",
+        iconSize: [30, 42],
+        iconAnchor: [15, 42]
+    });
+    marker = L.marker([43.61232, 1.46243], {
+	icon: icon
+    }).addTo(map);
+	
     </script>
     
   </body>

@@ -248,7 +248,9 @@ Jacobins</a>, a prestigious historical place downtown. Fresh drinks
   <h2 id="picnic"><span>End of conference Picnic</span></h2>
 
   <p>Right after the end of the conference, a picnic will be organized
-  on Friday from 1:30 pm at the Jolimont Observatory, which is located
+  on Friday from 1:30 pm at <a
+  href="https://www.visit-occitanie.com/en/fiche/patrimoine-culturel/observatoire-de-jolimont-toulouse_TFOPCUMID031FS00033/" target="_blank">
+  Jolimont Observatory</a>'s park, which is located
   about 20 minutes from the Pierre Baudis Convention Centre by
   subway.</p>
 
@@ -352,6 +354,17 @@ Jacobins</a>, a prestigious historical place downtown. Fresh drinks
 	icon: icon
     }).addTo(map);
 
+    // Add feature related to banquet (Jolimont picnic)
+    icon = L.divIcon({
+	className: 'custom-div-icon',
+	html: "<div style='background-color:green;' class='marker-pin'></div><i class='material-icons'>restaurant</i>",
+        iconSize: [30, 42],
+        iconAnchor: [15, 42]
+    });
+    marker = L.marker([43.61232, 1.46243], {
+	icon: icon
+    }).addTo(map);
+	
     </script>
     
   </body>
